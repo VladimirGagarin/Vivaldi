@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vivaldi Cantabile</title>
+        
+        <!-- Meta description for SEO -->
+        <meta name="description" content="Vivaldi Cantabile—a personal sanctuary where music transcends bounds of eternity. Discover a curated collection of melodies that resonate deeply with the heart and soul. Explore the music I cherish.">
+        
+        <!-- Meta keywords for SEO -->
+        <meta name="keywords" content="Vivaldi Cantabile, music sanctuary, curated melodies, music collection, personal playlist, emotional music, soul-stirring music, music I cherish">
+        
+        <!-- Open Graph Meta Tags for social media sharing (Facebook, LinkedIn, etc.) -->
+        <meta property="og:title" content="Vivaldi Cantabile">
+        <meta property="og:description" content="Vivaldi Cantabile—a personal sanctuary where music transcends bounds of eternity. Discover a curated collection of melodies that resonate deeply with the heart and soul. Explore the music I cherish.">
+        <meta property="og:image" content="logo.jpg"> <!-- Thumbnail for sharing -->
+        <meta property="og:url" content=""> <!-- Your website's URL -->
+        <meta property="og:type" content="website">
+        
+        <!-- Twitter Card Meta Tags for Twitter sharing -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Vivaldi Cantabile">
+        <meta name="twitter:description" content="Vivaldi Cantabile—a personal sanctuary where music transcends bounds of eternity. Discover a curated collection of melodies that resonate deeply with the heart and soul. Explore the music I cherish.">
+        <meta name="twitter:image" content="logo.jpg"> <!-- Thumbnail for Twitter -->
+        <meta name="twitter:url" content="">
+        
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    </head>
+    
+<body>
+    <header>
+        <div class="title">
+            <h1>Vivaldi Cantabile</h1>
+            <p>A crescendo that transcends the bounds of eternity.</p>
+        </div>
+    </header>
+
+    <div class="welcome-header">
+        <div class="message">
+            <h2>Vivaldi Cantabile</h2>
+            <p>A crescendo that transcends the bounds of eternity.</p>
+        </div>
+        <div class="playlist-button">
+            <button disabled>Create Your PlayList</button>
+        </div>
+    </div>
+
+    <div class="overlay-About-Mood-content">
+        <div class="content"></div>
+       <div class="close-about"><span>&times;</span></div>
+    </div>
+
+    <div class="loading-page">
+        <div class="loading-content">
+            <div class="loading-text">
+                <h1>Vivaldi Cantabile</h1>
+                <p>A crescendo that transcends the bounds of eternity.</p>
+            </div>
+            <div class="loading-page-spinner"></div>
+        </div>
+    </div>
+
+    <div class="playlist-overlay" id="playlist-overlay">
+        <div class="content-playlist">
+            <div class="albums-names">
+
+                <div class="play-list-name-field">
+                    <input type="text" placeholder="Enter Playlist Name" id="playlist-name-input">
+                </div>
+
+                <ul id="album-list"></ul>
+
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+    
+            <div class="song-preview">
+
+                <ul id="song-list"></ul>
+
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="content-actions">
+            <button id="cancel-btn">Cancel</button>
+            <button id="create-btn" disabled>Create</button>
+        </div>
+    </div>
+
+    <main>
+        <div class="default-message">
+            <h2>Network Error</h2>
+            <p>If you are seeing this it means there is a  bad connection</p>
+            <div class="default-controls">
+                <button>Reload Page</button>
+                <button>Close Page</button>
+            </div>
+        </div>
+        <div class="hero-section">
+            <h2></h2>
+            <div class="list-of-moods">
+
+                <ul></ul>
+            </div>
+
+            <div class="loading-anim">
+                <div class="spinner"></div>
+            </div>
+
+        </div>
+
+        <div class="highlight-section">
+            <h2></h2>
+            <div class="list-of-all-genres">
+
+                <ul></ul>
+            </div>
+
+            <div class="loading-anim">
+                <div class="spinner"></div>
+            </div>
+        </div>
+
+        <div class="home-suggestion">
+            <h2></h2>
+            <div class="previously-suggestion">
+                <ul></ul>
+            </div>
+            <div class="loading-anim">
+                <div class="spinner"></div>
+            </div>
+        </div>
+
+        <div class="playlist-sections">
+            <h2></h2>
+            <div class="playlist-container">
+                <ul></ul>
+            </div>
+            <div class="loading-anim">
+                <div class="spinner"></div>
+            </div>
+        </div>
+
+        <div class="about-vivaldi-section">
+            <section class="welcome-about">
+                <p>Step into the harmonious world of Vlad Permaz through Vivaldi Cantabile—a personal sanctuary where music transcends boundaries.</p>
+                <p>This is more than just a playlist; it’s a curated collection of melodies that resonate deeply with my heart and soul.</p>
+            </section>
+        
+            <div class="about-container">
+                <!-- Discover Section -->
+                <article class="abouts">
+                    <div class="left-info">
+                        <div class="image-preview">
+                            <img src="waltz.jpg" alt="Vlad Permaz enjoying music">
+                            <div class="overlay-play" role="button" aria-label="Play Music"><span>&#9654;</span></div>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h2>Discover the Music I Cherish</h2>
+                        <p>Here, I share the songs that have shaped my journey, lifted my spirits, and brought beauty to my days. From timeless waltzes to modern symphonies, every track is a piece of my story.</p>
+                    </div>
+                </article>
+        
+                <!-- Symphony Section -->
+                <article class="abouts">
+                    <div class="left-info">
+                        <div class="image-preview">
+                            <img src="cool.jpg" alt="Baroque and modern classics representation">
+                            <div class="overlay-play" role="button" aria-label="Play Music"><span>&#9654;</span></div>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h2>A Symphony for Everyone</h2>
+                        <p>Whether you’re a fan of Baroque elegance or modern classics, this is a space to explore, connect, and let music weave its magic into your life.</p>
+                    </div>
+                </article>
+        
+                <!-- Join Section -->
+                <article class="abouts">
+                    <div class="left-info">
+                        <div class="image-preview">
+                            <img src="chills.jpg" alt="Invitation to join the melody">
+                            <div class="overlay-play" role="button" aria-label="Play Music"><span>&#9654;</span></div>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h2>Join the Melody</h2>
+                        <p>Feel free to dive in, listen, and share your thoughts. Music is best enjoyed when it brings people together, and I hope these tunes inspire you as much as they inspire me.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <div class="songs-preview-section">
+
+            <div class="header-song-content">
+                <h2>Songs From: <span></span></h2>
+                <div class="song-content-inputs">
+                    <div class="search-song-content">
+                        <input type="text" title="Search songs" placeholder="Search Song">
+                         <!-- Search Results Container -->
+                        <div class="search-results hidden">
+                            <ul></ul>
+                        </div>
+                    </div>
+                
+                    <button>Home</button>
+                </div>
+            </div>
+
+            <div class="artist-preview">
+                <ul></ul>
+            </div>
+
+            <div class="song-preview-container">
+                <h3></h3>
+                <ul></ul>
+            </div>
+        </div>
+
+        <div class="song-spotlight-section">
+
+            <div class="spotlight-header">
+                <h2></h2>
+                <div class="spotlight-controls">
+                    <button>Home</button>
+                </div>
+            </div>
+
+            <div class="spotlight-description">
+                <span></span>
+            </div>
+
+            <div class="image-song-preview">
+                <h3></h3>
+            </div>
+
+            <div class="spot-light-featured">
+                <h2>For You</h2>
+                <ul></ul>
+            </div>
+        </div>
+
+        <div class="playlist-preview-section">
+
+            <div class="header-playlist">
+                <h2>Playlist name: </h2>
+                <div class="home-button-action">
+                    <button>Home</button>
+                </div>
+            </div>
+
+            <div class="playlist-content">
+                <ul></ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="bottom-song-content">
+
+        <div class="progress-truck">
+            <div class="progress-bar"></div>
+        </div>
+
+        <div class="progress-duration">
+            <span>00 : 00</span> 
+            <span>00 : 00</span>
+        </div>
+
+        <div class="bottom-actions">
+            <div class="left-actions">
+                <button disabled>&#9664;&#10074;</button> <!--Previous Button (Left Arrow)-->
+                <button>&#9654;</button> <!--Play Button (Right Arrow)-->
+                <button disabled>&#10074;&#9654;</button> <!--Next Button (Down Arrow)-->
+                <button>&#128266;</button> <!--Mute Button (Speaker with X)-->
+                <button>&hellip;</button> <!--More Button (Ellipsis)-->
+            </div>
+        
+            <div class="right-actions">
+                <button>&#10084;</button> <!--Like Button (Heart)-->
+                <button>&#128257;</button> <!--Loop Button (Circular Arrow)-->
+                <button disabled>&#128228;</button> <!--Show Playlist Button (Clipboard)-->
+            </div>
+        </div>                
+    </div>
+
+    <div class="recommended-song-overlay">
+        <div class="recommended-song-content">
+
+            <div class="song-preview">
+                <h3>Up Next:</h3>
+                <h4></h4>
+                <p></p>
+            </div>
+
+            <div class="song-actions">
+                <button class="play">Play</button>
+                <button class="cancel">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
