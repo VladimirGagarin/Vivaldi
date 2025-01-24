@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vivaldi Cantabile</title>
-        
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://cdnjs.cloudflare.com; script-src 'self' https://ip-api.com/json;"> -->
+
         <!-- Meta description for SEO -->
         <meta name="description" content="Vivaldi Cantabile—a personal sanctuary where music transcends bounds of eternity. Discover a curated collection of melodies that resonate deeply with the heart and soul. Explore the music I cherish.">
         
@@ -14,303 +15,214 @@
         <!-- Open Graph Meta Tags for social media sharing (Facebook, LinkedIn, etc.) -->
         <meta property="og:title" content="Vivaldi Cantabile">
         <meta property="og:description" content="Vivaldi Cantabile—a personal sanctuary where music transcends bounds of eternity. Discover a curated collection of melodies that resonate deeply with the heart and soul. Explore the music I cherish.">
-        <meta property="og:image" content="logo.jpg"> <!-- Thumbnail for sharing -->
-        <meta property="og:url" content=""> <!-- Your website's URL -->
+        <meta property="og:image" content="logo.jpg">
+        <meta property="og:url" content="https://vivaldicantabile.com">
         <meta property="og:type" content="website">
         
         <!-- Twitter Card Meta Tags for Twitter sharing -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Vivaldi Cantabile">
         <meta name="twitter:description" content="Vivaldi Cantabile—a personal sanctuary where music transcends bounds of eternity. Discover a curated collection of melodies that resonate deeply with the heart and soul. Explore the music I cherish.">
-        <meta name="twitter:image" content="logo.jpg"> <!-- Thumbnail for Twitter -->
-        <meta name="twitter:url" content="">
-        
+        <meta name="twitter:image" content="logo.jpg">
+        <meta name="twitter:url" content="https://vivaldicantabile.com">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self';"> -->
+
         <!-- Link to stylesheet -->
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
         
         <!-- Favicon -->
         <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
     </head>
     
-<body>
-    <header>
-        <div class="title">
-            <h1>Vivaldi Cantabile</h1>
-            <p>A crescendo that transcends the bounds of eternity.</p>
-        </div>
-    </header>
+    <body>
 
-    <div class="welcome-header">
-        <div class="message">
-            <h2>Vivaldi Cantabile</h2>
-            <p>A crescendo that transcends the bounds of eternity.</p>
-        </div>
-        <div class="playlist-button">
-            <button disabled>Create Your PlayList</button>
-        </div>
-    </div>
-
-    <div class="overlay-About-Mood-content">
-        <div class="content"></div>
-       <div class="close-about"><span>&times;</span></div>
-    </div>
-
-    <div class="loading-page">
-        <div class="loading-content">
-            <div class="loading-text">
-                <h1>Vivaldi Cantabile</h1>
-                <p>A crescendo that transcends the bounds of eternity.</p>
-            </div>
-            <div class="loading-page-spinner"></div>
-        </div>
-    </div>
-
-    <div class="playlist-overlay" id="playlist-overlay">
-        <div class="content-playlist">
-            <div class="albums-names">
-
-                <div class="play-list-name-field">
-                    <input type="text" placeholder="Enter Playlist Name" id="playlist-name-input">
+        <header>
+            <div class="logo-n-title-header">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Vivaldi Cantabile logo">
                 </div>
-
-                <ul id="album-list"></ul>
-
-                <div class="loading">
-                    <div class="spinner"></div>
+                <div class="title">
+                    <h1>Vivaldi Cantabile</h1>
+                    <p>A crescendo that transcends the bounds of eternity</p>
                 </div>
             </div>
-    
-            <div class="song-preview">
+        </header>
 
-                <ul id="song-list"></ul>
+        <div class="overlay-album-songs">
+            <div class="close-overlay-album"><span>&times;</span></div>
+            <div class="overlay-content-songs">
+                <ul>
+                </ul>
+            </div>
+        </div>
 
-                <div class="loading">
+        <div class="overlay-song-playlist-view">
+            <div class="close-overlay-play-view"><span>&times;</span></div>
+            <div class="song-view-content">
+                <h2>Enjoy Listening to <span></span></h2>
+                <ul></ul>
+                <div class="loading-content">
                     <div class="spinner"></div>
                 </div>
             </div>
         </div>
+
+        <div class="notification-section">
+        
+            <div class="img">
+                <img src="../logo.jpg" alt="notification">
+            </div>
     
-        <div class="content-actions">
-            <button id="cancel-btn">Cancel</button>
-            <button id="create-btn" disabled>Create</button>
+            <div class="message-section"><span></span></div>
         </div>
-    </div>
 
-    <main>
-        <div class="default-message">
-            <h2>Network Error</h2>
-            <p>If you are seeing this it means there is a  bad connection</p>
-            <div class="default-controls">
-                <button>Reload Page</button>
-                <button>Close Page</button>
-            </div>
-        </div>
-        <div class="hero-section">
-            <h2></h2>
-            <div class="list-of-moods">
+        <main>
 
+            <section id="moods">
+                <h2>What is your mood today</h2>
                 <ul></ul>
-            </div>
-
-            <div class="loading-anim">
-                <div class="spinner"></div>
-            </div>
-
-        </div>
-
-        <div class="highlight-section">
-            <h2></h2>
-            <div class="list-of-all-genres">
-
-                <ul></ul>
-            </div>
-
-            <div class="loading-anim">
-                <div class="spinner"></div>
-            </div>
-        </div>
-
-        <div class="home-suggestion">
-            <h2></h2>
-            <div class="previously-suggestion">
-                <ul></ul>
-            </div>
-            <div class="loading-anim">
-                <div class="spinner"></div>
-            </div>
-        </div>
-
-        <div class="playlist-sections">
-            <h2></h2>
-            <div class="playlist-container">
-                <ul></ul>
-            </div>
-            <div class="loading-anim">
-                <div class="spinner"></div>
-            </div>
-        </div>
-
-        <div class="about-vivaldi-section">
-            <section class="welcome-about">
-                <p>Step into the harmonious world of Vlad Permaz through Vivaldi Cantabile—a personal sanctuary where music transcends boundaries.</p>
-                <p>This is more than just a playlist; it’s a curated collection of melodies that resonate deeply with my heart and soul.</p>
             </section>
-        
-            <div class="about-container">
-                <!-- Discover Section -->
-                <article class="abouts">
-                    <div class="left-info">
-                        <div class="image-preview">
-                            <img src="waltz.jpg" alt="Vlad Permaz enjoying music">
-                            <div class="overlay-play" role="button" aria-label="Play Music"><span>&#9654;</span></div>
-                        </div>
-                    </div>
-                    <div class="right-info">
-                        <h2>Discover the Music I Cherish</h2>
-                        <p>Here, I share the songs that have shaped my journey, lifted my spirits, and brought beauty to my days. From timeless waltzes to modern symphonies, every track is a piece of my story.</p>
-                    </div>
-                </article>
-        
-                <!-- Symphony Section -->
-                <article class="abouts">
-                    <div class="left-info">
-                        <div class="image-preview">
-                            <img src="cool.jpg" alt="Baroque and modern classics representation">
-                            <div class="overlay-play" role="button" aria-label="Play Music"><span>&#9654;</span></div>
-                        </div>
-                    </div>
-                    <div class="right-info">
-                        <h2>A Symphony for Everyone</h2>
-                        <p>Whether you’re a fan of Baroque elegance or modern classics, this is a space to explore, connect, and let music weave its magic into your life.</p>
-                    </div>
-                </article>
-        
-                <!-- Join Section -->
-                <article class="abouts">
-                    <div class="left-info">
-                        <div class="image-preview">
-                            <img src="chills.jpg" alt="Invitation to join the melody">
-                            <div class="overlay-play" role="button" aria-label="Play Music"><span>&#9654;</span></div>
-                        </div>
-                    </div>
-                    <div class="right-info">
-                        <h2>Join the Melody</h2>
-                        <p>Feel free to dive in, listen, and share your thoughts. Music is best enjoyed when it brings people together, and I hope these tunes inspire you as much as they inspire me.</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-        
-        <div class="songs-preview-section">
 
-            <div class="header-song-content">
-                <h2>Songs From: <span></span></h2>
-                <div class="song-content-inputs">
-                    <div class="search-song-content">
-                        <input type="text" title="Search songs" placeholder="Search Song">
-                         <!-- Search Results Container -->
-                        <div class="search-results hidden">
+            <section id="featured-songs">
+                <h2>Featured Songs</h2>
+                <ul></ul>
+            </section>
+
+            <section id="featured-artist">
+                <h2>Feautured Folders</h2>
+                <ul></ul>
+            </section>
+
+            <section id="PlayList-Create">
+                <h2>Create Your own PlayList</h2>
+                <button id="startPlayListBtn">Start Here</button>
+
+                <div class="create-playlist-arena">
+
+                    <div class="header-content">
+                        <h2>Create Here</h2>
+                       <div class="action-header-playlist">
+                            <button disabled>Done</button>
+                            <button>Close</button>
+                       </div>
+                    </div>
+
+                    <div class="playlist-input">
+                        <input type="text" placeholder="Your Playlist name here...">
+                    </div>
+
+                    <div class="playlist-preview">
+                        <div class="left-playlist">
+                            <h3>List of Albums</h3>
+                            <ul></ul>
+                        </div>
+                        <div class="right-playlist">
+                            <h3>List of songs</h3>
                             <ul></ul>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section id="archives">
+                <h2>Your recent Playlist</h2>
+                <ul></ul>
+            </section>
+
+            <section id="About">
+                <h2>Vivaldi Cantabile: A Symphony of Timeless Melodies</h2>
+                <p>Welcome to Vivaldi Cantabile, the ultimate destination for music lovers. This website showcases an exquisite collection of songs beloved by Vlad Permaz, a passionate fan of love songs, classic Disney music, and nostalgic oldies like *The Sound of Music* and *The Wizard of Oz*. Immerse yourself in a world where music tells stories of love, joy, and timeless charm.</p>
                 
-                    <button>Home</button>
+                <div class="video-layout">
+                    <video src="./cantabile/vivaldi_video.mp4" preload="metadata" poster="./images/poster.jpg"></video>
+
+                    <div class="song-controls">
+                        <div class="video-progress-truck">
+                            <div class="video-progress-bar"></div>
+                        </div>
+                        <div class="video-actions">
+                            <button>&#9654;</button>
+                            <span></span>
+                            <button>&#128264;</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="artist-preview">
-                <ul></ul>
-            </div>
+                <article id="song-moods" class="seo-article">
+                    <h3>Moods of Songs: Finding the Right Tune for Every Moment</h3>
+                    <p>Music reflects our emotions and can set the tone for any moment. Whether you're seeking joy, serenity, or inspiration, the playlists in Vivaldi Cantabile offer a spectrum of moods to suit your day. Let the melodies resonate with your heart and elevate your spirit.</p>
+                </article>
 
-            <div class="song-preview-container">
-                <h3></h3>
-                <ul></ul>
-            </div>
-        </div>
+                <article id="love-songs" class="seo-article">
+                    <h3>Heartfelt Love Songs: A Playlist for Romance</h3>
+                    <p>Experience the magic of love through a collection of timeless love songs. From classical serenades to modern romantic hits, these songs capture the essence of passion and connection. Perfect for date nights or moments of reflection, this playlist is a celebration of love in all its forms.</p>
+                </article>
+                
+                <article id="classic-disney" class="seo-article">
+                    <h3>Classic Disney Music: Relive the Magic</h3>
+                    <p>Step into the enchanting world of Disney with a selection of classic songs that have touched hearts across generations. Featuring unforgettable melodies from beloved movies like *The Little Mermaid*, *Beauty and the Beast*, and more, this collection is a joyful tribute to the magic of Disney music.</p>
+                </article>
+                
+                <article id="musical-oldies" class="seo-article">
+                    <h3>Musical Oldies: Nostalgic Tunes from Iconic Films</h3>
+                    <p>Rediscover the golden era of musicals with songs from timeless classics like *The Sound of Music* and *The Wizard of Oz*. These nostalgic tunes bring back memories of cinema's most magical moments, offering a journey through history's most beloved musicals.</p>
+                </article>
+                
+                <article id="classical-favorites" class="seo-article">
+                    <h3>Classical Music Favorites: Iconic Masterpieces</h3>
+                    <p>Celebrate the grandeur of classical music with works by legendary composers like Vivaldi, Mozart, and Beethoven. These masterpieces are perfect for relaxation, inspiration, or simply enjoying the beauty of orchestral music at its finest.</p>
+                </article>
+                
+                <article id="personal-picks" class="seo-article">
+                    <h3>Vlad Permaz's Top Picks: Songs That Inspire</h3>
+                    <p>Explore Vlad Permaz's personally curated playlist of his favorite songs. This collection includes heartfelt melodies, uplifting classics, and pieces that hold a special place in his heart, showcasing his deep love for music.</p>
+                    <div class="fav-list">
+                        <ul></ul>
+                    </div>
+                </article>
 
-        <div class="song-spotlight-section">
+                <article id="disclaimer" class="seo-article">
+                    <h3>Disclaimer: Respecting Music Rights</h3>
+                    <p>Vivaldi Cantabile and Vlad Permaz do not claim ownership of the songs featured on this website. All rights belong to the original creators and copyright holders. This platform exists solely for the enjoyment and appreciation of music. Songs are not used for commercial purposes and will be removed upon request if necessary.</p>
+                </article>
 
-            <div class="spotlight-header">
-                <h2></h2>
-                <div class="spotlight-controls">
-                    <button>Home</button>
+            </section>
+            
+            <section>
+                <h2>Enter song</h2>
+                <input type="file" name="song" id="songInput" title="song input" multiple>
+                <div class="song-list">
+                    <ul></ul>
                 </div>
-            </div>
+            </section>
+        </main>
 
-            <div class="spotlight-description">
-                <span></span>
-            </div>
+        <footer>
+            <p>&copy; 2025 Vivaldi Cantabile</p>
+        </footer>
 
-            <div class="image-song-preview">
-                <h3></h3>
-            </div>
-
-            <div class="spot-light-featured">
-                <h2>For You</h2>
-                <ul></ul>
-            </div>
+        <div class="starting-page">
+            <h1>Welcome to Vivaldi Cantabile</h1>
+            <p>Start your journey with a National Anthem or skip directly to explore timeless music.<span></span></p>
+            
+            <button id="skip-button" disabled>Waiting For Anthem</button>
         </div>
 
-        <div class="playlist-preview-section">
-
-            <div class="header-playlist">
-                <h2>Playlist name: </h2>
-                <div class="home-button-action">
-                    <button>Home</button>
-                </div>
-            </div>
-
-            <div class="playlist-content">
-                <ul></ul>
-            </div>
-        </div>
-    </main>
-
-    <div class="bottom-song-content">
-
-        <div class="progress-truck">
-            <div class="progress-bar"></div>
-        </div>
-
-        <div class="progress-duration">
-            <span>00 : 00</span> 
-            <span>00 : 00</span>
-        </div>
-
-        <div class="bottom-actions">
-            <div class="left-actions">
-                <button disabled>&#9664;&#10074;</button> <!--Previous Button (Left Arrow)-->
-                <button>&#9654;</button> <!--Play Button (Right Arrow)-->
-                <button disabled>&#10074;&#9654;</button> <!--Next Button (Down Arrow)-->
-                <button>&#128266;</button> <!--Mute Button (Speaker with X)-->
-                <button>&hellip;</button> <!--More Button (Ellipsis)-->
-            </div>
-        
-            <div class="right-actions">
-                <button>&#10084;</button> <!--Like Button (Heart)-->
-                <button>&#128257;</button> <!--Loop Button (Circular Arrow)-->
-                <button disabled>&#128228;</button> <!--Show Playlist Button (Clipboard)-->
-            </div>
-        </div>                
-    </div>
-
-    <div class="recommended-song-overlay">
-        <div class="recommended-song-content">
-
-            <div class="song-preview">
-                <h3>Up Next:</h3>
-                <h4></h4>
-                <p></p>
-            </div>
-
-            <div class="song-actions">
-                <button class="play">Play</button>
-                <button class="cancel">Cancel</button>
-            </div>
-
-        </div>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+            <script type="application/ld+json">
+                [
+                  {
+                    "@context": "http://schema.org",
+                    "@type": "VideoObject",
+                    "name": "Vivaldi Cantabile Trailer",
+                    "description": "Vivaldi Cantabile is an enchanting journey through the timeless melodies of Calssic and more songs. Immerse yourself in the harmonious blend of strings and passion, where every note resonates with elegance and grace. Perfect for moments when you seek tranquility, inspiration, or simply a touch of classic beauty. This trailer invites you to experience the uplifting energy, creating the perfect soundtrack for good times and great classical moments. Let the music carry you to a place of serenity and wonder, where each performance is a celebration of life's most memorable experiences.",
+                    "thumbnailUrl": "./images/poster.jpg",
+                    "contentUrl": "./cantabile/vivaldi_video.mp4",
+                    "embedUrl": "https://vivaldicantabile.com/cantabile/vivaldi-trailer",
+                    "uploadDate": "2025-01-01",
+                    "duration": "PT1M33S"
+                  }
+                ]
+        </script>   
+    </body>
 </html>
