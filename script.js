@@ -989,11 +989,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function getUserCountry() {
         return new Promise((resolve) => {
-            fetch('http://ip-api.com/json')
+            fetch('https://ip-api.com/json')
                 .then(response => response.json())
                 .then(data => {
                     const countryCode = data.countryCode;
-    
+                    console.log(allSongArray.length);
                     // Check if the country code belongs to East African countries
                     const isEastAfrican = Object.values(eastAfricanCountries).includes(countryCode);
                     resolve(isEastAfrican); 
@@ -1143,7 +1143,7 @@ document.addEventListener('DOMContentLoaded', function () {
             songName: file.name.replace(".mp3", '').replace('y2mate.com - ', ''). replace('tomp3.cc - ', '').replace("Lyrics", '').replace("Video", ''),
             songUrl: `cantabile/${file.name}`,
             songGenre: "RnB",
-            songId: `RnB_0${index + 120}`,
+            songId: `RnB_0${index + 161}`,
             songArtist1: "",
             songArtist2: "",
             songMood: ["", "", ""],
