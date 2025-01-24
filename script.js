@@ -65,74 +65,72 @@ document.addEventListener('DOMContentLoaded', function () {
     const myAlbums = [
         {
             albumName: "RnB",
-            albumImage: "../images/rnb.jpg",
+            albumImage: "images/rnb.jpg",
             description: "Smooth, soulful tunes to set the mood right."
         },
         {
             albumName: "Airwave Music",
-            albumImage: "../images/airwave.jpg",
+            albumImage: "images/airwave.jpg",
             description: "Feel the breeze of uplifting beats and serene melodies."
         },
         {
             albumName: "Chills",
-            albumImage: "../images/chills.jpg",
+            albumImage: "images/chills.jpg",
             description: "Relax and unwind with soothing and calming sounds."
         },
         {
             albumName: "Twilight",
-            albumImage: "../images/twilight.jpg",
+            albumImage: "images/twilight.jpg",
             description: "Melodies as magical as the twilight hour."
         },
         {
             albumName: "Two Steps From Hell",
-            albumImage: "../images/hell.jpg",
+            albumImage: "images/hell.jpg",
             description: "Epic and inspiring orchestral masterpieces."
         },
         {
             albumName: "Classical",
-            albumImage: "../images/waltz.jpg",
+            albumImage: "images/waltz.jpg",
             description: "Graceful rhythms for dreamy dances under the stars."
         },
         {
             albumName: "Disney",
-            albumImage: "../images/disney.jpg",
+            albumImage: "images/disney.jpg",
             description: "Magical tunes that spark joy and nostalgia."
         },
         {
             albumName: "Ncs",
-            albumImage: "../images/ncs.jpg",
+            albumImage: "images/ncs.jpg",
             description: "Non-stop energy with no copyright beats."
         },
         {
             albumName: "Celine Dion",
-            albumImage: "../images/celine.jpg",
+            albumImage: "images/celine.jpg",
             description: "Iconic ballads and heartfelt anthems from the queen of vocals."
         },
         {
             albumName: "Bongo",
-            albumImage: "../images/bongo.jpg",
+            albumImage: "images/bongo.jpg",
             description: "Vibrant African rhythms to get you moving."
         },
         {
             albumName: "Bollywood",
-            albumImage: "../images/bollywood.jpg",
+            albumImage: "images/bollywood.jpg",
             description: "Bollywood beats that bring drama and romance to life."
         },
         {
             albumName: "Others",
-            albumImage: "../images/others.jpg",
+            albumImage: "images/others.jpg",
             description: "A mix of unique sounds for every curious ear."
         },
         {
             albumName: "Cool",
-            albumImage: "../images/cool.jpg",
+            albumImage: "images/cool.jpg",
             description: "Refreshing vibes to keep you chill."
         }
     ];
 
-    myMoods.forEach(m => {
-        console.log(m.mood)
-    })
+
 
     const vivaldiQuotes = [
         "Music is the rhythm of life, a melody that weaves through our souls, and a harmony that unites our hearts.",
@@ -175,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         artists.push(song.songArtist2);
                     }
                 });
-                const playbackUrl = `../songs/index.html?song=${encodeURIComponent(song.songName)}`;
+                const playbackUrl = `songs/index.html?song=${encodeURIComponent(song.songName)}`;
                 
                 // Generate JSON-LD Schema for the song
                 const songSchema = {
@@ -384,13 +382,13 @@ document.addEventListener('DOMContentLoaded', function () {
         reader.addEventListener('ended', () => {
             setTimeout(function () {
                 // Redirect to the song playback page
-                window.location.href = '../songs';
+                window.location.href = 'songs/';
             },5000);
         });
 
         reader.onerror = function () {
             // Redirect to the song playback page
-            window.location.href = '../songs';
+            window.location.href = 'songs/';
         }
     }
     
@@ -398,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function playSongsAsCurrentSong(song) {
         localStorage.setItem('currentSong', JSON.stringify(song));
         localStorage.setItem('songSource', 'album');
-        window.location.href = '../songs';
+        window.location.href = 'songs';
     }
 
     document.querySelector('#startPlayListBtn').onclick = function() {
