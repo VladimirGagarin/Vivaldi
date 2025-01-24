@@ -1,0 +1,846 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: rgb(174, 113, 2);
+    color: white;
+    padding: 20px 0;
+}
+
+.logo-n-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo img {
+    width: 60px; /* Adjust logo size */
+    height: auto;
+    margin-right: 15px;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #cdf603, pink, cyan);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.title p {
+    font-size: 1.2rem;
+    font-style: italic;
+    background: linear-gradient(to left, #cdf603, pink, cyan);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main{
+    width: 100%;
+    padding:  10px;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+main section {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    margin: 10px 0 20px 0; /* Same as above, explicitly stating the left margin */
+    padding: 20px;
+    display: none;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Feed {
+    display: flex;
+}
+/* Styling for each ul to create a 3-column layout */
+#Feed ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));  /* Corrected grid layout with auto-fill */
+    gap: 10px;  /* Adds space between items */
+    list-style: none;  /* Removes default list bullets */
+    padding: 0;  /* Removes padding */
+    box-sizing: border-box;  /* Ensures padding/border don't affect the width */
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+    scroll-snap-type:  y mandatory;
+    scrollbar-width: none;
+}
+
+#Feed ul::-webkit-scrollbar {
+    display: none;
+}
+
+#Feed .mood-display, #Feed .liked-songs, #Feed .minor-songs, #Feed .listened-songs{
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid #800200;
+    padding: 20px 10px;
+}
+
+#Feed .mood-display {
+    height: 100px;  
+}
+
+#Feed .mood-display ul {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scrollbar-width: none;
+    height: 100%;
+    padding: 0;
+}
+#Feed .mood-display ul::-webkit-scrollbar{
+    display: none;
+}
+
+#Feed .mood-display ul li {
+    min-width: 200px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #800200;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    color: #f4f4f4;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+
+#Feed .mood-display ul li:hover{
+    background-color: #f4f4f4;
+    color: #800200;
+    border-color: #800200;
+}
+
+#Feed .minor-songs ul li, #Feed .listened-songs ul li, #Feed .liked-songs li{
+    height: 60vh;
+    border: 1px solid #800200;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#Feed .minor-songs ul li, #Feed .listened-songs ul li, #Feed .liked-songs li{
+    background-image: url('../logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: 500ms ease-in-out;
+    color: #f4f4f4;
+}
+
+#Feed .minor-songs ul li::before, #Feed .listened-songs ul li::before, #Feed .liked-songs li::before{
+    content: '';
+    background-color: rgb(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#Feed .minor-songs ul li > *, #Feed .listened-songs ul li > *, #Feed .liked-songs li > *{
+    position: relative;
+    z-index: 2;
+}
+
+#Feed .minor-songs ul li:hover, #Feed .listened-songs ul li:hover, #Feed .liked-songs li:hover{
+    background-color: rgb(255, 255, 255, 0.8);
+    transform: scale(1.02);
+}
+
+
+#Feed .minor-songs ul li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+#Feed .minor-songs ul li .song-title {
+    width: 100%;
+    background-color: transparent;
+    padding-left: 4px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#Feed .minor-songs ul li .song-title h3 {
+    font-size: 1.4rem;
+    
+}
+
+#Feed .minor-songs ul li .song-album-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Feed .minor-songs ul li .song-album-name h3{
+    font-size: 1.2rem;
+    color: goldenrod;
+}
+
+#Feed .minor-songs ul li span, #Feed .listened-songs ul li span, #Feed .liked-songs li span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#result-field .header-result-inputs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #800200;
+    margin-bottom: 20px;
+}
+
+#result-field .header-result-inputs input{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #800200;
+    font-size: 1.3rem;
+    color: #800200;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#result-field ul{
+    padding:0;
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+    gap: 20px;
+}
+
+#result-field ul li {
+    min-height: 30vh;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #800200;
+    border-radius: 5px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#result-field ul li .albImg {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#result-field ul li .albImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#result-field ul li .song-detail {
+    flex: 1;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#spotlight .header-spot{
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #800200;
+}
+
+#spotlight .header-spot button{
+    background-color: #800200;
+    color: #f4f4f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+#spotlight .header-spot button:hover{
+    background-color: #ddd;
+    border: 1px solid #800200;
+    color: #800200;
+}
+
+#spotlight .playing-section {
+    display: flex; /* Enable flexbox */
+    width: 100%;   /* Make sure the container takes up the full width */
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.playing-section  .left-section {
+    flex: 2; 
+    min-height: 30vh;
+    border: 1px solid #800200;
+    border-radius: 5px;
+}
+
+.playing-section  .right-section {
+    flex: 1;
+    border-radius: 5px;
+    height: 60vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    background-image: url('../playlist.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playing-section  .right-section::-webkit-scrollbar{
+    display: none;
+}
+
+.playing-section  .left-section .currentSong-preview {
+    position: relative; /* This will allow for absolute positioning of controls */
+    background: #592601;   /* Dark background for the preview */
+    padding: 20px;
+    height: 600px;      /* Example height */
+    width: 100%;
+    background-image: url('../logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.current-song-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0; /* Controls positioned 20px above the bottom */
+    left: 0;
+    right: 0;
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for overlay */
+}
+
+.progress-truck {
+    width: 100%; /* Progress bar takes 70% of the width */
+    height: 5px;
+    background: #777;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Dynamic width that will change based on song progress */
+    background: #ff0000;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.left-controls,
+.right-controls {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.current-song-controls button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    transition: background 0.3s ease;
+}
+
+.current-song-controls button:hover {
+    background: rgba(255, 255, 255, 0.2); /* Button hover effect */
+}
+
+.current-song-controls .duration {
+    margin-left: 5px;
+    color: #cdf603;
+    font-weight: 400;
+}
+
+.vol-slider input[type="range"] {
+    -webkit-appearance: none;
+    width: 80px;
+    height: 5px;
+    background: #555;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.vol-slider input[type="range"]:focus {
+    outline: none;
+}
+
+.vol-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.vol-slider input[type="range"]:focus::-webkit-slider-thumb {
+    background: #f9f9f9;
+}
+
+.current-song-controls button[disabled] {
+    display: none;
+}
+
+.current-song-controls button.liked{
+    color: #ff00fb;
+}
+
+.right-controls button {
+    font-size: 24px; /* Slightly larger icons for the right controls */
+}
+
+.playing-section .right-section{
+    height: 600px;
+}
+
+.playing-section .right-section h2{
+    padding-left: 10px;
+    font-size:1.2rem;
+    color: goldenrod;
+    margin-top: 10px;
+}
+
+.playing-section .right-section ul{
+    list-style: none;
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.playing-section .right-section ul li{
+    width: 100%;
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;
+    padding: 20px 10px;
+    font-size: 1.3rem;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+.playing-section .right-section ul li:hover{
+    background-color: #800200;
+    color: #f4f4f4;
+}
+
+.playing-section .right-section ul li.playing{
+    background-color: #0056b3;
+    color: #f4f4f4;
+    
+}
+
+#spotlight .detail-section {
+    display: flex; /* Enable flexbox */
+    width: 100%;   /* Make sure the container takes up the full width */
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.detail-section .left-detail {
+    flex: 2; 
+    min-height: 30vh;
+    border: 1px solid #800200;
+    border-radius: 5px;
+}
+
+.detail-section .left-detail h2, .detail-section .left-detail p {
+    padding-left: 10px;
+}
+
+.detail-section .left-detail .list-of-moods {
+    width: 100%;
+    height: 60vh;
+    margin-top: 10px;
+    border-top: 1px solid #800200;
+    background-image: url('../logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-section .left-detail .list-of-moods::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.detail-section .left-detail .list-of-moods > *{
+    position: relative;
+    z-index: 2;
+}
+
+.detail-section .left-detail .list-of-moods ul{
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-section .left-detail .list-of-moods ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: #f4f4f4;
+    border: 2px solid #f9f9f9;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 150px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.detail-section .left-detail .list-of-moods ul li:hover{
+    background-color: #f4f4f4;
+    color: #800200;
+    border-color: #800200;
+}
+
+.detail-section .left-detail .list-of-moods ul li.active{
+    background-color: rgba(45, 79, 10, 0.609);
+    color: goldenrod;
+    border-color: goldenrod;
+}
+
+.detail-section .right-detail {
+    flex: 1;
+   
+    border-radius: 5px;
+    height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.detail-section .right-detail::-webkit-scrollbar{
+    display:none;
+    
+}
+
+.detail-section .right-detail h2{
+    padding-left: 10px;
+    font-size:1.2rem;
+    color: #800200;
+}
+
+.detail-section .right-detail ul {
+    list-style: none;
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.detail-section .right-detail ul li {
+    width: 100%;
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;
+    padding: 20px 10px;
+    font-size: 1.3rem;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #800200;
+    transition: 500ms ease-in-out;
+}
+
+.detail-section .right-detail ul li:hover{
+    background-color: #800200;
+    color: #f4f4f4;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.overlay-confirmation{
+    z-index: 999;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay-confirmation h2, .overlay-confirmation h4{
+    font-size: 2rem;
+    color: #800200;
+    text-align: center;
+    font-family: Brush Script MT;
+}
+
+.overlay-confirmation .confirmation-actions{
+    width: 40%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overlay-confirmation .confirmation-actions button{
+    background-color: #800200;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #f9f9f9;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+.overlay-confirmation .confirmation-actions button:hover{
+    background-color: #f9f9f9;
+    color: #800200;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.notification-section {
+    position: fixed;
+    bottom: 20px; /* Adjust this value for vertical spacing */
+    left: 20px; /* Adjust this value for horizontal spacing */
+    background-color: #800200; /* Set a background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    display: none; /* Flexbox for content alignment */
+    align-items: center;
+    flex-direction: column;
+    padding: 10px; /* Padding around the content */
+    z-index: 100; /* Ensure it's on top of other content */
+    max-width: 500px; /* Set a width */
+    height: auto;
+    min-height: 20vh;
+}
+
+.notification-section .img{
+    width: 100%; /* Adjust image size */
+    height: auto;
+    overflow: hidden;
+}
+
+.notification-section .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.notification-section .message-section span {
+    font-size: 14px; /* Text size */
+    color: #f9f9f9; /* Text color */
+    line-height: 1.5; /* Line height for better readability */
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Section Styling */
+main #SearchField {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #800200;
+}
+
+/* Header Search */
+.header-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px; /* Space between input and buttons */
+    width: 100%;
+}
+
+.header-search input {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #3e2b2a; /* Dark brown border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3e2b2a; /* Dark brown background */
+    color: #fff;
+    outline: none;
+}
+
+.header-search input::placeholder {
+    color: #d0a1a1; /* Light burgundy placeholder text */
+}
+
+.header-search button {
+    padding: 10px 20px;
+    background-color: transparent; /* Light burgundy button */
+    color: #fff;
+    border: 1px solid #f4f4f4; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-search button:hover {
+    background-color: #3e2b2a; /* Dark brown on hover */
+}
+
+/* Result Field */
+.result-field {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.result-field ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 10px;
+}
+
+.result-field li {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #f4f4f4; /* Dark brown border between items */
+    align-items: center;
+    color: #cdf603;
+}
+
+.result-field .image-content-output img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.result-field .song-name-content h3 {
+    font-size: 18px;
+    color: #d0a1a1; /* Light burgundy text */
+    margin: 0;
+}
+
+/* Hover Effect */
+.result-field li:hover {
+    background-color: #3e2b2a; /* Dark brown hover */
+    color: #fff;
+    cursor: pointer;
+}
+
+.result-field li:hover .song-name-content h3 {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-search input {
+        max-width: 100%;
+    }
+
+    .result-field ul {
+        margin-top: 10px;
+    }
+
+    .result-field li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
