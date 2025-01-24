@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function displayMainPageSchema() {
         // Fetch the song.json data
-        fetch('/songs.json')
+        fetch('songs.json')
         .then(response => response.json())
         .then(songs => {
             songs.forEach(song => {
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     (function () {
-        fetch("/songs.json")
+        fetch("songs.json")
             .then((response) => {
                 // Check if the response is OK (status code 200-299)
                 if (!response.ok) {
