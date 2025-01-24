@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://cdnjs.cloudflare.com; script-src 'self'">
+        
+        <meta name="description" content="Vivaldi Cantabile is a personalized music haven, curated exclusively for Vlad Permaz, where classical melodies transcend the bounds of eternity and every note brings a crescendo of timeless moments. Explore a world of serene and harmonious music that enriches the soul.">
+        <meta name="keywords" content="Vivaldi Cantabile, classical music, personalized music, timeless moments, Vlad Permaz, music haven, serene music, classical melodies, harmonious music, emotional impact, eternal music, crescendo, soul enriching music, music collection">
+    
+        <title>Songs | Vivaldi Cantabile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    </head>
+    
+<body>
+
+    <header>
+        <div class="logo-n-title-header">
+            <div class="logo">
+                <img src="logo.jpg" alt="Vivaldi Cantabile logo">
+            </div>
+            <div class="title">
+                <h1>Vivaldi Cantabile</h1>
+                <p>A crescendo that transcends the bounds of eternity</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="overlay-confirmation">
+        <h2> 💖 Ready to feel the music of the heart? 🎶</h2>
+        <h3></h3>
+        <h4></h4>
+        <div class="confirmation-actions">
+            <button>Listen</button>
+            <button>Cancel</button>
+        </div>
+    </div>
+
+    <div class="notification-section">
+        
+        <div class="img">
+            <img src="../logo.jpg" alt="notification">
+        </div>
+
+        <div class="message-section"><span></span></div>
+    </div>
+
+    <main>
+        <!-- Feed Section for song recommendations -->
+        <section id="Feed">
+            <h2>For You</h2>
+
+            <div class="mood-display">
+                <ul></ul>
+            </div>
+        
+            <div class="liked-songs">
+                <h2>Songs You Love</h2>
+                <ul></ul>
+            </div>
+        
+        
+            <div class="minor-songs">
+                <h2>Featured for you</h2>
+                <ul></ul>
+            </div>
+        
+            <div class="listened-songs">
+                <h2>Previously on Vivaldi Cantabile</h2>
+                <ul></ul>
+            </div>
+        </section>
+        
+        <!-- Spotlight Section for currently playing song and similar recommendations -->
+        <section id="spotlight">
+
+            <div class="header-spot">
+                <h2>Now Playing</h2>
+                <button >Search Songs</button>
+                <button>Back</button>
+            </div>
+           <div class="playing-section">
+                <div class="left-section">
+                    <div class="currentSong-preview">
+                        <div class="current-song-controls">
+                            <div class="progress-truck">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="controls">
+                                <div class="left-controls">
+                                    <button class="prev-button" aria-label="Previous Song" title="Previous Song">&#10074;&#9664;</button>
+                                    <button class="play-button" aria-label="Play" title="Play">&#9654;</button>
+                                    <button class="next-button" aria-label="Next Song" title="Next Song">&#9654;&#10074;</button>
+                                    <button class="Like-button" aria-label="Like Song" title="Like song">&#10084;</button>
+                                    <button class="mute-button" aria-label="Mute" title="Mute Song">&#128263;</button>
+                                    <div class="vol-slider">
+                                        <input type="range" title="Volume" aria-label="Volume Control" min="0" max="100" value="50">
+                                    </div>
+                                </div>
+                                <div class="right-controls">
+                                    <span class="duration"></span>
+                                    <button class="loop-button" aria-label="Loop" title="Loop Song"><i class="fa-solid fa-arrows-rotate"></i></button>
+                                    <button class="more-button" aria-label="More Options" title="Song information">&#8942;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="right-section">
+                    <h2>Playlist</h2>
+                    <ul></ul>
+                </div>
+           </div>
+           <div class="detail-section">
+            <div class="left-detail">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Artists</p>
+                <div class="list-of-moods">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="right-detail">
+                <h2>Tailored For You</h2>
+                <ul></ul>
+            </div>
+           </div>
+        </section>
+
+        <section id="SearchField">
+            <div class="header-search">
+                <input type="text" placeholder="Search here">
+                <button>Search</button>
+                <button>Back</button>
+            </div>
+            <div class="result-field">
+                <ul></ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="../script.js" defer></script>
+    <script src="./song.js"></script>
+</body>
+</html>
 
