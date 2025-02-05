@@ -1487,7 +1487,7 @@
         "songId": "VivaldiCantabile_140",
         "songArtist1": "The Weeknd",
         "songArtist2": "Spencer Saah",
-        "songMood": ["Upbeat", "Upbeat", "Fun"],
+        "songMood": ["Upbeat", "Euphoric", "Fun"],
         "songKeyWord": "Lights"
     },
     {
@@ -4994,7 +4994,7 @@
           "Upbeat",
           "Fun",
           "Happy",
-          "Playful"
+          "Euphoric"
         ],
         "songKeyWord": "Taylor Swift ME"
     },
@@ -5891,424 +5891,427 @@
         "songKeyWord": "JaySeanDown"
     },
     {
-        "songName": "Leona Lewis  Bleeding Love ",
+        "songName": "Bleeding Love",
         "songUrl": "cantabile/y2mate.com - Leona Lewis  Bleeding Love Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_094",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Leona Lewis",
+        "songArtist2": null,
         "songMood": [
-          "",
-          "",
-          ""
+            "Sad",
+            "Romantic",
+            "Melancholic"
         ],
-        "songKeyWord": "Lewis  Bleeding Love "
+        "songKeyWord": "BleedingLove "
     },
     {
-        "songName": "Leona Lewis  Better in Time Official ",
+        "songName": "Better in Time",
         "songUrl": "cantabile/y2mate.com - Leona Lewis  Better in Time Official Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_093",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Leona Lewis",
+        "songArtist2": null,
         "songMood": [
-          "",
-          "",
-          ""
+            "Hopeful",
+            "Motivational",
+            "Sentimental"
         ],
-        "songKeyWord": "Lewis  Better in Time Official "
+
+        "songKeyWord": "BetterinTime"
     },
     {
-        "songName": "Lady Gaga  Poker Face Official Music ",
+        "songName": "Poker Face",
         "songUrl": "cantabile/y2mate.com - Lady Gaga  Poker Face Official Music Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_092",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Lady Gaga",
+        "songArtist2": null,
         "songMood": [
-          "",
-          "",
-          ""
+            "Intense",
+            "Chill",
+            "Fun",
+            "Upbeat"
         ],
-        "songKeyWord": "aga  Poker Face Official Music "
+        "songKeyWord": "PokerFace"
     },
     {
-        "songName": "Lady Gaga  Just Dance Official Music  ft Colby ODonis",
+        "songName": "Just Dance",
         "songUrl": "cantabile/y2mate.com - Lady Gaga  Just Dance Official Music Video ft Colby ODonis.mp3",
         "songGenre": "RnB",
         "songId": "RnB_091",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
+        "songArtist1": "Lady Gaga",
+        "songArtist2": "Colby ODonis",
+       "songMood": [
+            "Fun",
+            "Party",
+            "Upbeat"
         ],
-        "songKeyWord": "aga  Just Dance Official Music  ft Colby ODonis"
+        "songKeyWord": "JustDance"
     },
     {
-        "songName": "Lady Gaga  Always Remember Us This Way ",
+        "songName": "Always Remember Us This Way ",
         "songUrl": "cantabile/y2mate.com - Lady Gaga  Always Remember Us This Way Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_090",
-        "songArtist1": "",
+        "songArtist1": "Lady Gaga",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+            "Nostalgic",
+            "Romantic",
+            "Sentimental"
         ],
-        "songKeyWord": "aga  Always Remember Us This Way "
+        "songKeyWord": "AlwaysRememberUs"
     },
     {
-        "songName": "Lady Antebellum  Need You Now ",
+        "songName": "Need You Now ",
         "songUrl": "cantabile/y2mate.com - Lady Antebellum  Need You Now Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_089",
-        "songArtist1": "",
+        "songArtist1": "Lady Antebellum",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+            "Sad",
+            "Romantic",
+            "Melancholic"
         ],
-        "songKeyWord": "ntebellum  Need You Now "
+        "songKeyWord": "NeedYouNow "
     },
     {
-        "songName": "Labrinth  Beneath Your Beautiful Official  ft Emeli Sandé",
+        "songName": "Beneath Your Beautiful",
         "songUrl": "cantabile/y2mate.com - Labrinth  Beneath Your Beautiful Official Video ft Emeli Sandé.mp3",
         "songGenre": "RnB",
         "songId": "RnB_088",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Labrinth",
+        "songArtist2": "Emeli Sandé",
         "songMood": [
-          "",
-          "",
-          ""
+            "Romantic",
+            "Sentimental",
+            "Peaceful"
         ],
-        "songKeyWord": "th  Beneath Your Beautiful Official  ft Emeli Sandé"
+        "songKeyWord": "BeneathYourBeautiful"
     },
     {
-        "songName": "keyshia cole heaven sent with lyrics",
+        "songName": "Heaven sent",
         "songUrl": "cantabile/y2mate.com - keyshia cole heaven sent with lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_087",
-        "songArtist1": "",
+        "songArtist1": "keyshia cole",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+            "Romantic",
+            "Sentimental",
+            "Peaceful"
         ],
-        "songKeyWord": "a cole heaven sent with lyrics"
+        "songKeyWord": "Heavensent"
     },
     {
-        "songName": "Kesha  Die Young ",
+        "songName": "Die Young",
         "songUrl": "cantabile/y2mate.com - Kesha  Die Young Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_086",
-        "songArtist1": "",
+        "songArtist1": "Kesha",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Fun",
+        "Upbeat",
+        "Party"
         ],
-        "songKeyWord": " Die Young "
+        "songKeyWord": "DieYoung "
     },
     {
-        "songName": "Kehlani  GEazy  Good Life from The Fate of the Furious The Album Official Music ",
+        "songName": "Good Life from The Fate of the Furious",
         "songUrl": "cantabile/y2mate.com - Kehlani  GEazy  Good Life from The Fate of the Furious The Album Official Music Video.mp3",
-        "songGenre": "RnB",
+        "songGenre": "Cool",
         "songId": "RnB_085",
-        "songArtist1": "",
+        "songArtist1": "Kehlani  GEazy",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Upbeat",
+        "Chill",
+        "Euphoric"
         ],
-        "songKeyWord": "i  GEazy  Good Life from The Fate of the Furious The Album Official Music "
+        "songKeyWord": "GoodLife"
     },
     {
-        "songName": "Katy Perry  Unconditionally ",
+        "songName": "Unconditionally ",
         "songUrl": "cantabile/y2mate.com - Katy Perry  Unconditionally Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_083",
-        "songArtist1": "",
+        "songArtist1": "Katy Perry",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Hopeful",
+        "Sentimental"
         ],
-        "songKeyWord": "erry  Unconditionally "
+        "songKeyWord": "Unconditionally "
     },
     {
-        "songName": "Katy Perry  Roar ",
+        "songName": "Roar ",
         "songUrl": "cantabile/y2mate.com - Katy Perry  Roar Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_082",
-        "songArtist1": "",
+        "songArtist1": "Katy Perry",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Motivational",
+        "Upbeat",
+        "Euphoric"
         ],
-        "songKeyWord": "erry  Roar "
+        "songKeyWord": "Roar"
     },
     {
-        "songName": "Katy Perry  Hot N Cold ",
+        "songName": "Hot N Cold ",
         "songUrl": "cantabile/y2mate.com - Katy Perry  Hot N Cold Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_081",
-        "songArtist1": "",
+        "songArtist1": "Katy Perry",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Fun",
+        "Upbeat",
+        "Intense"
         ],
-        "songKeyWord": "erry  Hot N Cold "
+        "songKeyWord": "HotNCold "
     },
     {
         "songName": "Pnk  Try ",
         "songUrl": "cantabile/y2mate.com - Pnk  Try Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0100",
-        "songArtist1": "",
+        "songArtist1": "P!nk",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Motivational",
+        "Intense",
+        "Romantic"
         ],
-        "songKeyWord": "ry "
+        "songKeyWord": "Try"
     },
     {
-        "songName": "Pnk  Just Give Me A Reason ft Nate Ruess",
+        "songName": "Just Give Me A Reason",
         "songUrl": "cantabile/y2mate.com - Pnk  Just Give Me A Reason ft Nate Ruess.mp3",
         "songGenre": "RnB",
         "songId": "RnB_099",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "P!nk",
+        "songArtist2": "Nate Ruess",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Sentimental",
+        "Hopeful"
         ],
-        "songKeyWord": "ust Give Me A Reason ft Nate Ruess"
+        "songKeyWord": "GiveMeAReason"
     },
     {
-        "songName": "Pitbull Keha  Timber featuring Keha  Official ",
+        "songName": "Timber",
         "songUrl": "cantabile/y2mate.com - Pitbull Keha  Timber featuring Keha  Official Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_098",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Pitbull",
+        "songArtist2": "Keha",
         "songMood": [
-          "",
-          "",
-          ""
+        "Party",
+        "Upbeat",
+        "Fun"
         ],
-        "songKeyWord": "l Keha  Timber featuring Keha  Official "
+        "songKeyWord": "Timber"
     },
     {
-        "songName": "Pitbull  International Love  ft Chris Brown",
+        "songName": "International Love",
         "songUrl": "cantabile/y2mate.com - Pitbull  International Love Lyrics ft Chris Brown.mp3",
         "songGenre": "RnB",
         "songId": "RnB_097",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Pitbull",
+        "songArtist2": "Chris Brown",
         "songMood": [
-          "",
-          "",
-          ""
+            "Party",
+            "Upbeat",
+            "Euphoric"
         ],
-        "songKeyWord": "l  International Love  ft Chris Brown"
+        "songKeyWord": "InternationalLove"
     },
     {
-        "songName": "Pitbull  Feel This Moment Official  ft Christina Aguilera",
+        "songName": "Feel This Moment",
         "songUrl": "cantabile/y2mate.com - Pitbull  Feel This Moment Official Video ft Christina Aguilera.mp3",
         "songGenre": "RnB",
         "songId": "RnB_096",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Pitbull",
+        "songArtist2": "Christina Aguilera",
         "songMood": [
-          "",
-          "",
-          ""
+        "Motivational",
+        "Upbeat",
+        "Epic"
         ],
-        "songKeyWord": "l  Feel This Moment Official  ft Christina Aguilera"
+        "songKeyWord": "FeelThisMoment"
     },
     {
-        "songName": "OZone  Dragostea Din Tei ",
+        "songName": "Din Tei ",
         "songUrl": "cantabile/y2mate.com - OZone  Dragostea Din Tei Lyrics.mp3",
         "songGenre": "Others",
         "songId": "RnB_095",
-        "songArtist1": "",
+        "songArtist1": "OZone  Dragostea",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Fun",
+        "Upbeat",
+        "Chill"
         ],
-        "songKeyWord": " Dragostea Din Tei "
+        "songKeyWord": "DragosteaDinTei "
     },
     {
-        "songName": "One Word  Elliott Yamin lyrics",
+        "songName": "One Word",
         "songUrl": "cantabile/y2mate.com - One Word  Elliott Yamin lyrics.mp3",
         "songGenre": "Twilight",
         "songId": "RnB_094",
-        "songArtist1": "",
+        "songArtist1": "Elliott Yamin",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+            "Romantic",
+            "Nostalgic",
+            "Sentimental"
         ],
-        "songKeyWord": "rd  Elliott Yamin lyrics"
+        "songKeyWord": "OneWord"
     },
     {
-        "songName": "O Zone Despre Tine  Romanian  English",
+        "songName": "Despre Tine",
         "songUrl": "cantabile/y2mate.com - O Zone Despre Tine Lyrics Romanian  English.mp3",
         "songGenre": "Others",
         "songId": "RnB_093",
-        "songArtist1": "",
+        "songArtist1": "OZone  Dragostea",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Dreamy",
+        "Melancholic"
         ],
-        "songKeyWord": " Despre Tine  Romanian  English"
+        "songKeyWord": "DespreTine"
     },
     {
-        "songName": "Nicki Minaj  Fly  ft Rihanna",
+        "songName": "Fly",
         "songUrl": "cantabile/y2mate.com - Nicki Minaj  Fly Lyrics ft Rihanna.mp3",
         "songGenre": "RnB",
         "songId": "RnB_092",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Nicki Minaj",
+        "songArtist2": "Rihanna",
         "songMood": [
-          "",
-          "",
-          ""
+        "Motivational",
+        "Upbeat",
+        "Epic",
+        "Dreamy"
         ],
-        "songKeyWord": "Minaj  Fly  ft Rihanna"
+        "songKeyWord": "Fly"
     },
     {
-        "songName": "Nelly  Just A Dream Lyric ",
+        "songName": "Just A Dream",
         "songUrl": "cantabile/y2mate.com - Nelly  Just A Dream Lyric Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_091",
-        "songArtist1": "",
+        "songArtist1": "Nelly",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Sad",
+        "Melancholic",
+        "Nostalgic"
         ],
-        "songKeyWord": " Just A Dream Lyric "
+        "songKeyWord": "JustADream"
     },
     {
         "songName": "Moves Like Jagger  Maroon 5 Feat Christina Aguilera  ",
         "songUrl": "cantabile/y2mate.com - Moves Like Jagger  Maroon 5 Feat Christina Aguilera Lyrics .mp3",
         "songGenre": "RnB",
         "songId": "RnB_090",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Maroon 5",
+        "songArtist2": "Christina Aguilera",
         "songMood": [
-          "",
-          "",
-          ""
+        "Party",
+        "Upbeat",
+        "Fun"
         ],
-        "songKeyWord": "Like Jagger  Maroon 5 Feat Christina Aguilera  "
+        "songKeyWord": "LikeJagger"
     },
     {
-        "songName": "Miley Cyrus  Wrecking Ball Directors Cut",
+        "songName": "Wrecking Ball",
         "songUrl": "cantabile/y2mate.com - Miley Cyrus  Wrecking Ball Directors Cut.mp3",
         "songGenre": "RnB",
         "songId": "RnB_089",
-        "songArtist1": "",
+        "songArtist1": "Miley Cyrus",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Sad",
+        "Romantic",
+        "Intense"
         ],
-        "songKeyWord": "Cyrus  Wrecking Ball Directors Cut"
+        "songKeyWord": "WreckingBall"
     },
     {
-        "songName": "Miley Cyrus  We Cant Stop ",
+        "songName": "We Cant Stop",
         "songUrl": "cantabile/y2mate.com - Miley Cyrus  We Cant Stop Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_088",
-        "songArtist1": "",
+        "songArtist1": "Miley Cyrus",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Party",
+        "Fun",
+        "Euphoric"
         ],
-        "songKeyWord": "Cyrus  We Cant Stop "
+        "songKeyWord": "WeCantStop"
     },
     {
-        "songName": "Maroon 5 Ft Wiz Khalifa  Payphone ",
+        "songName": "Payphone",
         "songUrl": "cantabile/y2mate.com - Maroon 5 Ft Wiz Khalifa  Payphone Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_086",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Maroon 5",
+        "songArtist2": "Wiz Khalifa",
         "songMood": [
-          "",
-          "",
-          ""
+        "Nostalgic",
+        "Romantic",
+        "Melancholic"
         ],
-        "songKeyWord": " 5 Ft Wiz Khalifa  Payphone "
+        "songKeyWord": "Payphone"
     },
     {
-        "songName": "Major Lazer  DJ Maphorisa  Particula ft Nasty C Ice Prince Patoranking  JidennaMusic ",
+        "songName": "Particula",
         "songUrl": "cantabile/y2mate.com - Major Lazer  DJ Maphorisa  Particula ft Nasty C Ice Prince Patoranking  JidennaMusic Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_084",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Major Lazer",
+        "songArtist2": "DJ Maphorisa, Nasty C, Ice Prince, Patoranking ",
         "songMood": [
-          "",
-          "",
-          ""
+        "Mellow",
+        "Party",
+        "Upbeat"
         ],
-        "songKeyWord": "Lazer  DJ Maphorisa  Particula ft Nasty C Ice Prince Patoranking  JidennaMusic "
+        "songKeyWord": "Particula"
     },
     {
-        "songName": "Machine Gun Kelly  Camila Cabello  Bad Things ",
+        "songName": "Bad Things",
         "songUrl": "cantabile/y2mate.com - Machine Gun Kelly  Camila Cabello  Bad Things Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_083",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Machine Gun,Kelly ",
+        "songArtist2": "Camila Cabello",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Angry",
+        "Intense"
         ],
-        "songKeyWord": "e Gun Kelly  Camila Cabello  Bad Things "
+        "songKeyWord": "BadThings "
     },
     {
-        "songName": "Luis Fonsi  Despacito ft Daddy Yankee",
+        "songName": "Despacito",
         "songUrl": "cantabile/y2mate.com - Luis Fonsi  Despacito ft Daddy Yankee.mp3",
-        "songGenre": "RnB",
+        "songGenre": "Cool",
         "songId": "RnB_082",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Luis Fonsi",
+        "songArtist2": "Daddy Yankee",
         "songMood": [
-          "",
-          "",
-          ""
+        "Upbeat",
+        "Happy",
+        "Romantic"
         ],
-        "songKeyWord": "onsi  Despacito ft Daddy Yankee"
+        "songKeyWord": "Despacito"
     },
     {
         "songName": "Love Is Wicked Instrumental",
@@ -6318,557 +6321,465 @@
         "songArtist1": "",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Chill",
+        "Relaxing",
+        "Mellow"
         ],
-        "songKeyWord": "s Wicked Instrumental"
+        "songKeyWord": "WickedInstrumental"
     },
     {
-        "songName": "abba-mamma-mia-lyrics-128-ytshorts.savetube.me",
+        "songName": "Mamma Mia",
         "songUrl": "cantabile/abba-mamma-mia-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "Twilight",
         "songId": "RnB_0119",
-        "songArtist1": "",
+        "songArtist1": "ABBA",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Upbeat",
+        "Fun",
+        "Happy"
         ],
-        "songKeyWord": "amma-mia-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "MammaMia"
     },
     {
-        "songName": "celine-dion-i-surrender-lyrics-128-ytshorts.savetube.me",
+        "songName": "I surrender",
         "songUrl": "cantabile/celine-dion-i-surrender-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "Celine Dion",
         "songId": "RnB_0118",
-        "songArtist1": "",
+        "songArtist1": "Celine Dion",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Sentimental",
+        "Nostalgic"
         ],
-        "songKeyWord": "-dion-i-surrender-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "ISurrender"
     },
     {
-        "songName": "celine-dion-if-walls-could-talk-official-video-128-ytshorts.savetube.me",
+        "songName": "If walls could talk",
         "songUrl": "cantabile/celine-dion-if-walls-could-talk-official-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "Celine Dion",
         "songId": "RnB_0117",
-        "songArtist1": "",
+        "songArtist1": "Celine Dion",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Melancholic",
+        "Sentimental"
         ],
-        "songKeyWord": "-dion-if-walls-could-talk-official-video-128-ytshorts.savetube.me"
+        "songKeyWord": "WallsCouldtalk"
     },
     {
-        "songName": "alan-walker-faouzia-last-song-official-lyric-video-128-ytshorts.savetube.me",
+        "songName": "Last song",
         "songUrl": "cantabile/alan-walker-faouzia-last-song-official-lyric-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "Chills",
         "songId": "RnB_0116",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Alan Walker",
+        "songArtist2": "Faouzia",
         "songMood": [
-          "",
-          "",
-          ""
+        "Sad",
+        "Melancholic",
+        "Peaceful"
         ],
-        "songKeyWord": "alker-faouzia-last-song-official-lyric-video-128-ytshorts.savetube.me"
+        "songKeyWord": "LastSong"
     },
     {
-        "songName": "berlin-take-my-breath-away-lyrics-128-ytshorts.savetube.me",
+        "songName": "Take my breath away",
         "songUrl": "cantabile/berlin-take-my-breath-away-lyrics-128-ytshorts.savetube.me.mp3",
-        "songGenre": "RnB",
+        "songGenre": "Twilight",
         "songId": "RnB_0115",
-        "songArtist1": "",
+        "songArtist1": "Berlin",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Dreamy",
+        "Nostalgic"
         ],
-        "songKeyWord": "-take-my-breath-away-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "take-my-breath-away-"
     },
     {
-        "songName": "belinda-carlisle-heaven-is-a-place-on-earth-lyrics-128-ytshorts.savetube.me",
+        "songName": "Heaven is a place on earth",
         "songUrl": "cantabile/belinda-carlisle-heaven-is-a-place-on-earth-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "Twilight",
         "songId": "RnB_0114",
-        "songArtist1": "",
+        "songArtist1": "Belinda Carlisle",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Happy",
+        "Romantic",
+        "Euphoric"
         ],
-        "songKeyWord": "a-carlisle-heaven-is-a-place-on-earth-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "heaven-is-a-place-on-earth"
     },
     {
-        "songName": "cyndi-lauper-time-after-time-lyrics-128-ytshorts.savetube.me",
+        "songName": "Time after time",
         "songUrl": "cantabile/cyndi-lauper-time-after-time-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "Twilight",
         "songId": "RnB_0113",
-        "songArtist1": "",
+        "songArtist1": "cyndi lauper",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Sentimental",
+        "Hopeful"
         ],
-        "songKeyWord": "lauper-time-after-time-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "TimeAfterTime"
     },
     {
-        "songName": "toto-africa-lyrics-128-ytshorts.savetube.me",
+        "songName": "Africa",
         "songUrl": "cantabile/toto-africa-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "Twilight",
         "songId": "RnB_0112",
-        "songArtist1": "",
+        "songArtist1": "Toto",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
+       "songMood": [
+        "Epic",
+        "Motivational",
+        "Nostalgic"
         ],
-        "songKeyWord": "frica-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "Africa"
     },
     {
-        "songName": "longombas-queen-lyrics-128-ytshorts.savetube.me",
+        "songName": "Queen",
         "songUrl": "cantabile/longombas-queen-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0111",
-        "songArtist1": "",
+        "songArtist1": "Longombas",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Fun",
+        "Upbeat",
+        "Party"
         ],
-        "songKeyWord": "bas-queen-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "queen"
     },
     {
-        "songName": "kesha-your-love-is-my-drug-128-ytshorts.savetube.me",
+        "songName": "Your love is my drug",
         "songUrl": "cantabile/kesha-your-love-is-my-drug-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0110",
-        "songArtist1": "",
+        "songArtist1": "Kesha",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Fun",
+        "Upbeat",
+        "Euphoric"
         ],
-        "songKeyWord": "your-love-is-my-drug-128-ytshorts.savetube.me"
+        "songKeyWord": "your-love-is-my-drug"
     },
     {
-        "songName": "maroon-5-girls-like-you-ft-cardi-b-official-music-video-128-ytshorts.savetube.me",
+        "songName": "Girls like you",
         "songUrl": "cantabile/maroon-5-girls-like-you-ft-cardi-b-official-music-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0109",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "Maroon 5",
+        "songArtist2": "Cardi B",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Upbeat",
+        "Fun"
         ],
-        "songKeyWord": "-5-girls-like-you-ft-cardi-b-official-music-video-128-ytshorts.savetube.me"
+        "songKeyWord": "GirlsLikeYou"
     },
     {
-        "songName": "ed-sheeran-shape-of-you-official-music-video-128-ytshorts.savetube.me",
+        "songName": "Shape of you",
         "songUrl": "cantabile/ed-sheeran-shape-of-you-official-music-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0108",
-        "songArtist1": "",
+        "songArtist1": "Ed Sheeran",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Romantic",
+        "Fun",
+        "Upbeat"
         ],
-        "songKeyWord": "eran-shape-of-you-official-music-video-128-ytshorts.savetube.me"
+        "songKeyWord": "ShapeOfYou"
     },
     {
-        "songName": "bebe-rexha-meant-to-be-feat-florida-georgia-line-official-music-video-128-ytshorts.savetube.me",
+        "songName": "Meant To Be",
         "songUrl": "cantabile/bebe-rexha-meant-to-be-feat-florida-georgia-line-official-music-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0107",
-        "songArtist1": "",
+        "songArtist1": "Bebe Rexha",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Relaxing",
+        "Sentimental",
+        "Hopeful"
         ],
-        "songKeyWord": "exha-meant-to-be-feat-florida-georgia-line-official-music-video-128-ytshorts.savetube.me"
+        "songKeyWord": "meant-to-be"
     },
     {
-        "songName": "cnco-little-mix-reggaeton-lento-remix-official-video-128-ytshorts.savetube.me",
+        "songName": "Reggaetón Lento (Remix)",
         "songUrl": "cantabile/cnco-little-mix-reggaeton-lento-remix-official-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "Others",
         "songId": "RnB_0106",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": " CNCO",
+        "songArtist2": "Little Mix",
         "songMood": [
-          "",
-          "",
-          ""
+        "Party",
+        "Upbeat",
+        "Fun"
         ],
-        "songKeyWord": "ittle-mix-reggaeton-lento-remix-official-video-128-ytshorts.savetube.me"
+        "songKeyWord": "reggaeton-lento-remix"
     },
     {
-        "songName": "rosalia-j-balvin-con-altura-official-video-ft-el-guincho-128-ytshorts.savetube.me",
+        "songName": "Con Altura",
         "songUrl": "cantabile/rosalia-j-balvin-con-altura-official-video-ft-el-guincho-128-ytshorts.savetube.me.mp3",
         "songGenre": "Others",
         "songId": "RnB_0105",
-        "songArtist1": "",
-        "songArtist2": "",
+        "songArtist1": "rosalia",
+        "songArtist2": "j-balvin",
         "songMood": [
-          "",
-          "",
-          ""
+        "Party",
+        "Fun",
+        "Euphoric"
         ],
-        "songKeyWord": "a-j-balvin-con-altura-official-video-ft-el-guincho-128-ytshorts.savetube.me"
+        "songKeyWord": "con-altura"
     },
     {
-        "songName": "daddy-yankee-gasolina-lyrics-128-ytshorts.savetube.me",
+        "songName": "Gasolina",
         "songUrl": "cantabile/daddy-yankee-gasolina-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "Others",
         "songId": "RnB_0104",
-        "songArtist1": "",
+        "songArtist1": "Daddy  Yankee",
         "songArtist2": "",
         "songMood": [
-          "",
-          "",
-          ""
+        "Party",
+        "Intense",
+        "Euphoric"
         ],
-        "songKeyWord": "yankee-gasolina-lyrics-128-ytshorts.savetube.me"
+        "songKeyWord": "gasolina"
     },
     {
-        "songName": "shakira-hips-don-t-lie-official-4k-video-ft-wyclef-jean-128-ytshorts.savetube.me",
+        "songName": "Hips don't lie",
         "songUrl": "cantabile/shakira-hips-don-t-lie-official-4k-video-ft-wyclef-jean-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0103",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
+        "songArtist1": "Shakira",
+        "songArtist2": "Wyclef Jean",
+        "SongMood":[  "Euphoric",  "Chill",  "Upbeat",  "Party"],
         "songKeyWord": "a-hips-don-t-lie-official-4k-video-ft-wyclef-jean-128-ytshorts.savetube.me"
     },
     {
-        "songName": "shakira-whenever-wherever-official-hd-video-128-ytshorts.savetube.me",
+        "songName": "Whenever wherever",
         "songUrl": "cantabile/shakira-whenever-wherever-official-hd-video-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0102",
-        "songArtist1": "",
+        "songArtist1": "Shakira",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a-whenever-wherever-official-hd-video-128-ytshorts.savetube.me"
+        "SongMood":[ "Euphoric", "Fun", "Romantic",  "Hopeful"],
+        "songKeyWord": "whenever-wherever"
     },
     {
-        "songName": "shakira-waka-waka-this-time-for-africa-lyrics-128-ytshorts.savetube.me",
+        "songName": "Waka waka this time for Africa",
         "songUrl": "cantabile/shakira-waka-waka-this-time-for-africa-lyrics-128-ytshorts.savetube.me.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0101",
         "songArtist1": "",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a-waka-waka-this-time-for-africa-lyrics-128-ytshorts.savetube.me"
+        "SongMood":[ "Motivational", "Party",  "Fun",  "Hopeful"],
+        "songKeyWord": "waka-waka"
     },{
-        "songName": "R City  Locked Away  ft Adam Levine",
+        "songName": "Locked Away",
         "songUrl": "cantabile/y2mate.com - R City  Locked Away Lyrics ft Adam Levine.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0120",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "  Locked Away  ft Adam Levine"
+        "songArtist1": "R City",
+        "songArtist2": "Adam Levine",
+        "SongMood":[  "Dreamy",  "Peaceful",  "Romantic",  "Nostalgic",  "Hopeful"],
+        "songKeyWord": "Locked_Away"
     },
     {
-        "songName": "Rachel Platten  Fight Song ",
+        "songName": "Fight Song ",
         "songUrl": "cantabile/y2mate.com - Rachel Platten  Fight Song Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0121",
-        "songArtist1": "",
+        "songArtist1": "Rachel Platten  ",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": " Platten  Fight Song "
+        "SongMood":[  "Hopeful",  "Dreamy",  "Mellow",  "Sentimental",  "Intense"],
+        "songKeyWord": "Platten_Fight_Song "
     },
     {
-        "songName": "Rihanna Umbrella Orange Version Official Music  ft JAYZ",
+        "songName": "Umbrella Orange Version",
         "songUrl": "cantabile/y2mate.com - Rihanna Umbrella Orange Version Official Music Video ft JAYZ.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0131",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a Umbrella Orange Version Official Music  ft JAYZ"
+        "songArtist1": "Rihanna",
+        "songArtist2": "JAYZ",
+        "SongMood":[  "Mellow",  "Dreamy",  "Euphoric",  "Upbeat"],
+        "songKeyWord": "UmbrellaOrange"
     },
     {
-        "songName": "Rihanna Stay  I want you to stay",
+        "songName": "I want you to stay",
         "songUrl": "cantabile/y2mate.com - Rihanna Stay Lyrics I want you to stay.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0130",
-        "songArtist1": "",
+        "songArtist1": "Rihanna",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a Stay  I want you to stay"
+        "SongMood":[  "Peaceful",  "Hopeful",  "Dreamy",  "Chill",  "Romantic"],
+        "songKeyWord": "Stay"
     },
     {
-        "songName": "Rihanna  Whats My Name ft Drake",
+        "songName": "Whats My Name",
         "songUrl": "cantabile/y2mate.com - Rihanna  Whats My Name ft Drake.mp3",
         "songGenre": "RnB",
-        "songId": "RnB_0129",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a  Whats My Name ft Drake"
+        "songId": "RnB_3129",
+        "songArtist1": "Rihanna",
+        "songArtist2": "Drake",
+        "SongMood":[ "Dreamy", "Hopeful", "Mellow", "Upbeat", "Chill"],
+        "songKeyWord": "Whats_My_Name"
     },
     {
-        "songName": "Rihanna  We Found Love ft Calvin Harris",
+        "songName": "We Found Love",
         "songUrl": "cantabile/y2mate.com - Rihanna  We Found Love ft Calvin Harris.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0128",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a  We Found Love ft Calvin Harris"
+        "songArtist1": "Rihanna",
+        "songArtist2": "Calvin Harris",
+       "SongMood":[  "Sentimental",  "Sad",  "Intense",  "Hopeful"],
+        "songKeyWord": "We_Found_Love"
     },
     {
-        "songName": "RIHANNA  Te Amo  ",
+        "songName": "Te Amo",
         "songUrl": "cantabile/y2mate.com - RIHANNA  Te Amo  Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0127",
-        "songArtist1": "",
+        "songArtist1": "Rihanna",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "A  Te Amo  "
+        "SongMood":[  "Nostalgic",  "Peaceful",  "Romantic",  "Sentimental",  "Dreamy"],
+        "songKeyWord": "Te_Amo"
     },
     {
-        "songName": "Rihanna  Take A Bow",
+        "songName": "Take A Bow",
         "songUrl": "cantabile/y2mate.com - Rihanna  Take A Bow.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0126",
-        "songArtist1": "",
+        "songArtist1": "Rihanna",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a  Take A Bow"
+        "SongMood":["Sentimental",  "Peaceful",  "Sad",  "Relaxing"],
+        "songKeyWord": "Take_A_Bow"
     },
     {
-        "songName": "Rihanna  Disturbia ",
+        "songName": "Disturbia ",
         "songUrl": "cantabile/y2mate.com - Rihanna  Disturbia Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0125",
-        "songArtist1": "",
+        "songArtist1": "Rihanna",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
+       "SongMood":[ "Hopeful", "Party", "Sentimental", "Mellow", "Euphoric"],
         "songKeyWord": "a  Disturbia "
     },
     {
-        "songName": "Rihanna  Diamonds ",
+        "songName": "Diamonds ",
         "songUrl": "cantabile/y2mate.com - Rihanna  Diamonds Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0124",
-        "songArtist1": "",
+        "songArtist1": "Rihanna",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "a  Diamonds "
+        "SongMood":[ "Dreamy", "Romantic", "Epic", "Intense", "Sentimental"],
+        "songKeyWord": "Diamonds "
     },
     {
-        "songName": "Replay Prequel Music   Iyaz",
+        "songName": "Replay Prequel",
         "songUrl": "cantabile/y2mate.com - Replay Prequel Music Video  Iyaz.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0123",
-        "songArtist1": "",
+        "songArtist1": "Iyaz",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": " Prequel Music   Iyaz"
+        "SongMood":[  "Mellow",  "Upbeat",  "Romantic",  "Chill",  "Euphoric"],
+        "songKeyWord": " Replay"
     },
     {
-        "songName": "RedOne  Dont You Need Somebody Friends of RedOnes Version",
+        "songName": "Don't You Need Somebody",
         "songUrl": "cantabile/y2mate.com - RedOne  Dont You Need Somebody Friends of RedOnes Version.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0122",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "  Dont You Need Somebody Friends of RedOnes Version"
+        "songArtist1": "RedOne",
+        "songArtist2": "Friends of RedOnes",
+        "SongMood":[ "Chill",  "Happy",  "Fun",  "Upbeat",  "Romantic",  "Sentimental"],
+        "songKeyWord": "Dont_You_Need_Somebody"
     },
 
     {
-        "songName": "Jay Melody  Turudiane Official ",
+        "songName": "Turudiane",
         "songUrl": "cantabile/y2mate.com - Jay Melody  Turudiane Official Lyrics.mp3",
         "songGenre": "Bongo",
-        "songId": "RnB_0120",
-        "songArtist1": "",
+        "songId": "Bongo_011120",
+        "songArtist1": "Jay Melody",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "lody  Turudiane Official "
+        "SongMood":[ "Hopeful",  "Euphoric",  "Dreamy",  "Sad",  "Romantic"],
+        "songKeyWord": "Turudiane"
     },
     {
-        "songName": "Savior  Iggy Azalea Feat Quavo  ",
+        "songName": "Savior",
         "songUrl": "cantabile/y2mate.com - Savior  Iggy Azalea Feat Quavo Lyrics .mp3",
         "songGenre": "RnB",
         "songId": "RnB_0130",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "  Iggy Azalea Feat Quavo  "
+        "songArtist1": "Iggy Azalea",
+        "songArtist2": "Quavo",
+        "SongMood":[ "Hopeful", "Nostalgic", "Intense", "Upbeat"],
+        "songKeyWord": "Savior"
     },
     {
-        "songName": "Sean Paul  Got 2 Luv U feat Alexis Jordan Official ",
+        "songName": "Got 2 Luv U",
         "songUrl": "cantabile/y2mate.com - Sean Paul  Got 2 Luv U feat Alexis Jordan Official Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0131",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "aul  Got 2 Luv U feat Alexis Jordan Official "
+        "songArtist1": "Sean Paul",
+        "songArtist2": "Alexis Jordan",
+        "SongMood":[  "Fun",  "Happy",  "Romantic",  "Euphoric"],
+        "songKeyWord": "Got_2_Luv_U"
     },
     {
-        "songName": "Sean Paul  She Doesnt Mind Official ",
+        "songName": "She Doesn't Mind",
         "songUrl": "cantabile/y2mate.com - Sean Paul  She Doesnt Mind Official Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0132",
-        "songArtist1": "",
+        "songArtist1": "Sean Paul",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "aul  She Doesnt Mind Official "
+        "SongMood":[ "Mellow", "Sad", "Sentimental", "Euphoric"],
+        "songKeyWord": "She_Doesn't_Mind "
     },
     {
-        "songName": "Sean Paul Dua Lipa  No Lie ",
+        "songName": "No Lie ",
         "songUrl": "cantabile/y2mate.com - Sean Paul Dua Lipa  No Lie Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0133",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "aul Dua Lipa  No Lie "
+        "songArtist1": "Sean Paul",
+        "songArtist2": "Dua Lipa",
+        "SongMood":[  "Mellow",  "Euphoric",  "Fun",  "Happy"],
+        "songKeyWord": "Dua_No_Lie"
     },
     {
-        "songName": "Sean Paul ftKelly RowlandHow Deep Is Your Love ",
+        "songName": "How Deep Is Your Love ",
         "songUrl": "cantabile/y2mate.com - Sean Paul ftKelly RowlandHow Deep Is Your LoveLyrics Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0134",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "aul ftKelly RowlandHow Deep Is Your Love "
+        "songArtist1": "Sean Paul",
+        "songArtist2": " Kelly Rowland",
+        "SongMood":[  "Mellow",  "Upbeat",  "Happy",  "Romantic"],
+        "songKeyWord": "How_Deep_Is_Your_Love "
     },
     {
-        "songName": "Selena Gomez  Lose You To Love Me Official Music ",
+        "songName": "Lose You To Love Me",
         "songUrl": "cantabile/y2mate.com - Selena Gomez  Lose You To Love Me Official Music Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0135",
-        "songArtist1": "",
+        "songArtist1": "Selena Gomez",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": " Gomez  Lose You To Love Me Official Music "
+        "SongMood":[  "Hopeful",  "Dreamy",  "Nostalgic",  "Angry",  "Melancholic"],
+        "songKeyWord": " Lose_You_To_Love _Me"
     },
     {
         "songName": "Shontelle  Impossible",
         "songUrl": "cantabile/y2mate.com - Shontelle  Impossible.mp3",
         "songGenre": "RnB",
-        "songId": "RnB_0139",
-        "songArtist1": "",
+        "songId": "RnB_2139",
+        "songArtist1": "Shontelle",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "lle  Impossible"
+        "SongMood":[ "Sad", "Nostalgic", "Dreamy",  "Angry"],
+        "songKeyWord": "Shontelle_Impossible"
     },
     {
         "songName": "Sia  Chandelier Official ",
@@ -6877,349 +6788,259 @@
         "songId": "RnB_0140",
         "songArtist1": "",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
+        "SongMood":[  "Chill",  "Upbeat",  "Mellow",  "Party",  "Dreamy"],
         "songKeyWord": "handelier Official "
     },
     {
-        "songName": "Sia  Cheap Thrills  ft Sean Paul",
+        "songName": "Cheap Thrills",
         "songUrl": "cantabile/y2mate.com - Sia  Cheap Thrills Lyrics ft Sean Paul.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0141",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "heap Thrills  ft Sean Paul"
+        "songArtist1": "Sia",
+        "songArtist2": "Sean Paul",
+        "SongMood":[  "Chill",  "Party",  "Fun",  "Upbeat",  "Euphoric"],
+        "songKeyWord": "Cheap_Thrills"
     },
     {
-        "songName": "Sia  Helium ",
+        "songName": "Helium ",
         "songUrl": "cantabile/y2mate.com - Sia  Helium Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0142",
-        "songArtist1": "",
+        "songArtist1": "Sia",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "elium "
+        "SongMood":[  "Sentimental","Hopeful",  "Romantic",  "Peaceful",  "Relaxing"],
+        "songKeyWord": "Helium "
     },
     {
-        "songName": "Sia  The Greatest ",
+        "songName": "The Greatest ",
         "songUrl": "cantabile/y2mate.com - Sia  The Greatest Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0143",
-        "songArtist1": "",
+        "songArtist1": "Sia",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "he Greatest "
+        "SongMood":[  "Mellow",  "Euphoric",  "Upbeat",  "Party"],
+        "songKeyWord": "TheGreatest "
     },
     {
-        "songName": "Sia  Unstoppable Official   Live from the Nostalgic For The Present Tour",
+        "songName": "Unstoppable",
         "songUrl": "cantabile/y2mate.com - Sia  Unstoppable Official Video  Live from the Nostalgic For The Present Tour.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0134",
-        "songArtist1": "",
+        "songArtist1": "Sia",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "nstoppable Official   Live from the Nostalgic For The Present Tour"
+        "SongMood":[  "Mellow",  "Motivational",  "Nostalgic",  "Sentimental",  "Chill"],
+        "songKeyWord": "Unstoppable"
     },
     {
-        "songName": "Sia Elastic Heart ",
+        "songName": "Elastic Heart ",
         "songUrl": "cantabile/y2mate.com - Sia Elastic Heart Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0137",
-        "songArtist1": "",
+        "songArtist1": "Sia",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "astic Heart "
+        "SongMood":[  "Upbeat",  "Party",  "Mellow","Sad"],
+        "songKeyWord": "Elastic_Heart "
     },
     {
-        "songName": "Solo Official Music   Iyaz",
+        "songName": "Solo",
         "songUrl": "cantabile/y2mate.com - Solo Official Music Video  Iyaz.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0139",
-        "songArtist1": "",
+        "songArtist1": "Iyaz",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "fficial Music   Iyaz"
+        "SongMood":[  "Hopeful",  "Mellow",  "Chill",  "Relaxing",  "Romantic"],
+        "songKeyWord": "Solo"
     },
     {
-        "songName": "Starships Nicki Minaj ",
+        "songName": "Starships ",
         "songUrl": "cantabile/y2mate.com - Starships Nicki Minaj Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0140",
-        "songArtist1": "",
+        "songArtist1": "Nicki Minaj",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ips Nicki Minaj "
+        "SongMood":[  "Mellow",  "Party",  "Happy",  "Fun",  "Upbeat",  "Euphoric"],
+        "songKeyWord": "Nicki_Starships"
     },
     {
-        "songName": "Swedish House Mafia  Dont You Worry Child LYRICS",
+        "songName": "Dont You Worry",
         "songUrl": "cantabile/y2mate.com - Swedish House Mafia  Dont You Worry Child LYRICS.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0150",
-        "songArtist1": "",
+        "songArtist1": "Swedish House Mafia",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "h House Mafia  Dont You Worry Child LYRICS"
+        "SongMood":[  "Upbeat",  "Party",  "Hopeful",  "Chill"],
+        "songKeyWord": "DontYouWorry"
     },
 
     {
-        "songName": "Taio Cruz Break Your Heart  ft Ludacris",
+        "songName": "Break Your Heart",
         "songUrl": "cantabile/y2mate.com - Taio Cruz Break Your Heart Lyrics ft Ludacris.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0151",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ruz Break Your Heart  ft Ludacris"
+        "songArtist1": "Taio Cruz",
+        "songArtist2": "Ludacris",
+       "SongMood":[ "Sad",  "Mellow",  "Upbeat",  "Nostalgic",  "Dreamy"],
+        "songKeyWord": "Break_Your_Heart"
     },
     {
-        "songName": "Taio Cruz Dynamite ",
+        "songName": "Dynamite ",
         "songUrl": "cantabile/y2mate.com - Taio Cruz Dynamite Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0122",
-        "songArtist1": "",
+        "songArtist1": "Taio Cruz",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ruz Dynamite "
+        "SongMood":[  "Mellow",  "Chill",  "Upbeat",  "Sentimental"],
+        "songKeyWord": "Dynamite "
     },
     {
-        "songName": "Taylor Swift  We Are Never Ever Getting Back Together ",
+        "songName": "We Are Never Ever Getting Back Together ",
         "songUrl": "cantabile/y2mate.com - Taylor Swift  We Are Never Ever Getting Back Together Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0123",
-        "songArtist1": "",
+        "songArtist1": "Taylor Swift",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": " Swift  We Are Never Ever Getting Back Together "
+        "SongMood":[ "Chill", "Upbeat", "Dreamy", "Melancholic"],
+        "songKeyWord": "NeverEverGettingBackTogether"
     },
     {
-        "songName": "Taylor Swift  Wildest Dreams ",
+        "songName": "Wildest Dreams ",
         "songUrl": "cantabile/y2mate.com - Taylor Swift  Wildest Dreams Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0124",
-        "songArtist1": "",
+        "songArtist1": "Taylor Swift",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": " Swift  Wildest Dreams "
+        "SongMood":[  "Hopeful",  "Nostalgic",  "Melancholic",  "Peaceful"],
+        "songKeyWord": " Wildest_Dreams"
     },
     {
-        "songName": "Taylor Swift Blank Space",
+        "songName": "Blank Space",
         "songUrl": "cantabile/y2mate.com - Taylor Swift Blank Space.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0125",
-        "songArtist1": "",
+        "songArtist1": "Taylor Swift",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": " Swift Blank Space"
+        "SongMood":[ "Chill", "Fun",  "Dreamy",  "Mellow",  "Upbeat"],
+        "songKeyWord": "Swift_Blank_Space"
     },
     {
-        "songName": "The Black Eyed Peas  I Gotta Feeling Official Music ",
+        "songName": "I Gotta Feeling",
         "songUrl": "cantabile/y2mate.com - The Black Eyed Peas  I Gotta Feeling Official Music Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0126",
-        "songArtist1": "",
+        "songArtist1": "The Black Eyed Peas",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ack Eyed Peas  I Gotta Feeling Official Music "
+        "SongMood":[ "Happy", "Upbeat", "Party", "Euphoric",  "Dreamy"],
+        "songKeyWord": "I_Gotta_Feeling"
     },
     {
-        "songName": "The Chainsmokers  Dont Let Me Down  ft Daya",
+        "songName": "Don't Let Me Down ",
         "songUrl": "cantabile/y2mate.com - The Chainsmokers  Dont Let Me Down Lyrics ft Daya.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0127",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ainsmokers  Dont Let Me Down  ft Daya"
+        "songArtist1": "The Chainsmokers",
+        "songArtist2": "Daya",
+        "SongMood":[  "Hopeful",  "Relaxing",  "Peaceful",  "Chill",  "Intense"],
+        "songKeyWord": "Don't_Let_Me_Down"
     },
     {
-        "songName": "The Heart Wants What It Wants With  Selena Gomez",
+        "songName": "The Heart Wants What It Wants With",
         "songUrl": "cantabile/y2mate.com - The Heart Wants What It Wants With Lyrics Selena Gomez.mp3",
         "songGenre": "RnB",
-        "songId": "RnB_0128",
-        "songArtist1": "",
+        "songId": "RnB_11128",
+        "songArtist1": "Selena Gomez",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "art Wants What It Wants With  Selena Gomez"
+       "SongMood":[  "Sentimental",  "Nostalgic",  "Hopeful",  "Chill"],
+        "songKeyWord": "HeartWants"
     },
     {
-        "songName": "The Saturdays  Higher Official ",
+        "songName": "Higher",
         "songUrl": "cantabile/y2mate.com - The Saturdays  Higher Official Video.mp3",
         "songGenre": "RnB",
-        "songId": "RnB_0129",
-        "songArtist1": "",
+        "songId": "RnB_11129",
+        "songArtist1": "The Saturdays",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "turdays  Higher Official "
+        "SongMood":[ "Mellow", "Euphoric", "Party", "Upbeat"],
+        "songKeyWord": "Higher"
     },
     {
         "songName": "The Saturdays  What About Us",
         "songUrl": "cantabile/y2mate.com - The Saturdays  What About Us.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0130",
-        "songArtist1": "",
+        "songArtist1": "The Saturdays",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "turdays  What About Us"
+        "songMood": ["Chill",  "Party",  "Happy",  "Upbeat"],
+        "songKeyWord": "WhatAboutUs"
     },
     {
-        "songName": "The Script  Hall Of Fame ",
+        "songName": "Hall Of Fame ",
         "songUrl": "cantabile/y2mate.com - The Script  Hall Of Fame Lyrics.mp3",
         "songGenre": "Cool",
         "songId": "RnB_0131",
-        "songArtist1": "",
+        "songArtist1": "The Script",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ript  Hall Of Fame "
+        "SongMood":[  "Dreamy",  "Sentimental",  "Mellow",  "Peaceful",  "Hopeful",  "Motivational"],
+        "songKeyWord": "Hall_Of_Fame "
     },
     {
-        "songName": "The Weeknd  Blinding Lights NCS Fanmade",
+        "songName": "Superheroes",
+        "songUrl": "cantabile/y2mate.com - TheScript  Superheroes Lyrics.mp3",
+        "songGenre": "Cool",
+        "songId": "RnB_13561",
+        "songArtist1": "The Script",
+        "songArtist2": "",
+        "SongMood":[  "Hopeful",  "Sentimental",  "Motivational",  "Euphoric"],
+        "songKeyWord": "Heroes "
+    },
+    {
+        "songName": "Blinding Lights NCS Fanmade",
         "songUrl": "cantabile/y2mate.com - The Weeknd  Blinding Lights NCS Fanmade.mp3",
         "songGenre": "Cool",
         "songId": "RnB_0132",
-        "songArtist1": "",
+        "songArtist1": "The Weeknd",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "eknd  Blinding Lights NCS Fanmade"
+        "SongMood":[  "Euphoric",  "Happy",  "Upbeat",  "Party",  "Fun",  "Mellow"],
+        "songKeyWord": "BlindingLights"
     },
     {
-        "songName": "TI  Whatever You Like Official ",
+        "songName": "Whatever You Like",
         "songUrl": "cantabile/y2mate.com - TI  Whatever You Like Official Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0133",
-        "songArtist1": "",
+        "songArtist1": "TI",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "atever You Like Official "
+        "SongMood":[ "Party", "Chill", "Romantic", "Mellow"],
+        "songKeyWord": "Whatever_You_Like"
     },
     {
-        "songName": "TI Rihanna  Live Your Life ",
+        "songName": "Live Your Life ",
         "songUrl": "cantabile/y2mate.com - TI Rihanna  Live Your Life Lyrics.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0134",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "anna  Live Your Life "
+        "songArtist1": "Rihanna",
+        "songArtist2": "TI",
+        "SongMood":[ "Dreamy",  "Hopeful",  "Upbeat",  "Chill",  "Mellow",  "Sentimental" ],
+        "songKeyWord": "Live_Your_Life "
     },
     {
-        "songName": "Toni Braxton Yesterday feat Trey Songz Official ",
+        "songName": "Yesterday ",
         "songUrl": "cantabile/y2mate.com - Toni Braxton Yesterday feat Trey Songz Official Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0135",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "raxton Yesterday feat Trey Songz Official "
+        "songArtist1": "Toni Braxton",
+        "songArtist2": "Trey Songz",
+        "SongMood":[ "Chill", "Peaceful", "Dreamy",  "Hopeful"],
+        "songKeyWord": "Yesterday"
     },
     {
-        "songName": "Trey Songz Heart Attack Official Music ",
+        "songName": "Heart Attack",
         "songUrl": "cantabile/y2mate.com - Trey Songz Heart Attack Official Music Video.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0136",
-        "songArtist1": "",
+        "songArtist1": "Trey Songz",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ongz Heart Attack Official Music "
+        "SongMood":[ "Epic", "Nostalgic", "Sad",  "Intense"],
+        "songKeyWord": "Heart_Attack "
     },
     {
         "songName": "Vanessa Carlton  A Thousand Miles ",
@@ -7228,82 +7049,58 @@
         "songId": "RnB_0137",
         "songArtist1": "",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
+        "SongMood":[ "Upbeat", "Mellow", "Happy", "Chill", "Hopeful" ],
         "songKeyWord": "a Carlton  A Thousand Miles "
     },
     {
-        "songName": "Where Have You Been  Rihanna  ",
+        "songName": "Where Have You Been  Rihanna",
         "songUrl": "cantabile/y2mate.com - Where Have You Been  Rihanna Lyrics .mp3",
         "songGenre": "RnB",
         "songId": "RnB_0138",
-        "songArtist1": "",
+        "songArtist1": "Rihanna",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "Have You Been  Rihanna  "
+        "SongMood":[ "Mellow", "Upbeat", "Romantic", "Fun"],
+        "songKeyWord": "HaveYouBeen "
     },
     {
-        "songName": "Wiz Khalifa  See You Again ft Charlie Puth Official Instrumental",
+        "songName": "See You Again_Instrumental",
         "songUrl": "cantabile/y2mate.com - Wiz Khalifa  See You Again ft Charlie Puth Official Instrumental.mp3",
         "songGenre": "Others",
         "songId": "RnB_0139",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "alifa  See You Again ft Charlie Puth Official Instrumental"
+        "songArtist1": "Wiz Khalifa",
+        "songArtist2": "Charlie Puth",
+        "SongMood":[  "Chill",  "Hopeful",  "Epic",  "Relaxing"],
+        "songKeyWord": "Instrumental_See_You_Again"
     },
     {
-        "songName": "Wiz Khalifa See You Again ft Charlie Puth ",
+        "songName": "See You Again",
         "songUrl": "cantabile/y2mate.com - Wiz Khalifa See You Again ft Charlie Puth Lyrics.mp3",
         "songGenre": "Cool",
         "songId": "RnB_0140",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "alifa See You Again ft Charlie Puth "
+        "songArtist1": "Wiz Khalifa",
+        "songArtist2": "Charlie Puth",
+        "SongMood":[ "Nostalgic", "Sad", "Peaceful",  "Hopeful"],
+        "songKeyWord": "See_You_Again"
     },
     {
-        "songName": "Zara Larsson  Uncover ",
+        "songName": "Uncover ",
         "songUrl": "cantabile/y2mate.com - Zara Larsson  Uncover Lyrics.mp3",
         "songGenre": "Chills",
         "songId": "RnB_0141",
-        "songArtist1": "",
+        "songArtist1": "Zara Larsson",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "arsson  Uncover "
+        "SongMood":[  "Nostalgic",  "Intense",  "Chill",  "Peaceful"],
+        "songKeyWord": "Uncover "
     },
     {
-        "songName": "zayn_sia_dusk_till_dawn_lyrics_mp3_23702",
+        "songName": "Dusk till dawn",
         "songUrl": "cantabile/zayn_sia_dusk_till_dawn_lyrics_mp3_23702.mp3",
         "songGenre": "RnB",
         "songId": "RnB_0143",
-        "songArtist1": "",
-        "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "ia_dusk_till_dawn_lyrics_mp3_23702"
+        "songArtist1": "Zayn",
+        "songArtist2": "Sia",
+        "SongMood":[ "Intense", "Melancholic", "Sad", "Nostalgic"],
+        "songKeyWord": "dusk_till_dawn"
     },
     {
         "songName": "ZAYN  PILLOWTALK ",
@@ -7312,26 +7109,228 @@
         "songId": "RnB_0142",
         "songArtist1": "",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
+        "SongMood":[  "Motivational",  "Mellow",  "Relaxing",  "Chill",  "Dreamy"],
         "songKeyWord": "PILLOWTALK "
     },
     {
-        "songName": "Jay Melody  18 Official Music ",
+        "songName": "Jay Melody_18",
         "songUrl": "cantabile/y2mate.com - Jay Melody  18 Official Music Lyrics.mp3",
         "songGenre": "Bongo",
         "songId": "RnB_0160",
+        "songArtist1": "Jay Melody",
+        "songArtist2": "",
+        "SongMood":[  "Sentimental",  "Romantic",  "Hopeful",  "Intense"],
+        "songKeyWord": "18"
+    },
+    {
+        "songName": "NITAUIMBA WIMBO",
+        "songUrl": "cantabile/y2mate.com - NITAUIMBA WIMBO OFFICIAL VIDEO.mp3",
+        "songGenre": "Others",
+        "songId": "RnB_0161",
+        "songArtist1": "Simon",
+        "songArtist2": "",
+        "SongMood":["Motivational",  "Happy",  "Dreamy",  "Upbeat",  "Mellow"],
+        "songKeyWord": "NITAUIMBA"
+    },
+    {
+        "songName": "Because of you",
+        "songUrl": "cantabile/reba-mcentire-kelly-clarkson-because-of-you-official-music-video-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Twilight",
+        "songId": "RnB_0165",
+        "songArtist1": "Reba mcentire kelly clarkson",
+        "songArtist2": "",
+        "SongMood":[  "Hopeful",  "Peaceful",  "Dreamy",  "Romantic"],
+        "songKeyWord": "centire-kelly-clarkson-because-of-you-official-music-video-128-ytshorts.savetube.me"
+    },
+    {
+        "songName": "Dear rodeo",
+        "songUrl": "cantabile/dear-rodeo-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Twilight",
+        "songId": "RnB_0164",
+        "songArtist1": "Cody Johnson",
+        "songArtist2": "",
+        "SongMood":[ "Dreamy", "Romantic", "Hopeful",  "Relaxing"],
+        "songKeyWord": "Rodeo"
+    },
+    {
+        "songName": "On my way to you",
+        "songUrl": "cantabile/cody-johnson-on-my-way-to-you-official-music-video-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Twilight",
+        "songId": "RnB_0163",
+        "songArtist1": "Cody Johnson",
+        "songArtist2": "",
+        "SongMood":[  "Mellow",  "Relaxing",  "Dreamy",  "Chill"  ],
+        "songKeyWord": "on-my-way-to-you"
+    },
+    {
+        "songName": "What a wonderful world",
+        "songUrl": "cantabile/louis-armstrong-what-a-wonderful-world-official-video-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Twilight",
+        "songId": "RnB_0162",
+        "songArtist1": "louis-armstrong",
+        "songArtist2": null,
+       "SongMood":[ "Dreamy", "Hopeful",  "Peaceful",  "Sentimental"],
+        "songKeyWord": "what-a-wonderful-world"
+    },
+
+    {
+        "songName": "eclipse chronicles of a hero",
+        "songUrl": "cantabile/eternal-eclipse-chronicles-of-a-hero-official-music-video-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Two Steps From Hell",
+        "songId": "RnB_01113",
+        "songArtist1": "Original Soundtrack",
+        "songArtist2": "",
+        "SongMood":[ "Hopeful",  "Intense",  "Epic",  "Fun",  "Peaceful",  "Relaxing"  ],
+        "songKeyWord": "eclipse-chronicles-of-a-hero"
+    },
+    {
+        "songName": "L-O-V-E",
+        "songUrl": "cantabile/nat-king-cole-l-o-v-e-lyric-video-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Twilight",
+        "songId": "Twilight_01175",
+        "songArtist1": "nat King cole",
+        "songArtist2": "",
+        "SongMood":[  "Romantic",  "Dreamy",  "Happy",  "Sentimental",  "Hopeful"],
+        "songKeyWord": "l-o-v-e"
+    },
+    {
+        "songName": "Paah",
+        "songUrl": "cantabile/bahati-willy-paul-paah-official-music-video-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bongo",
+        "songId": "Bongo_01174",
+        "songArtist1": "Bahati",
+        "songArtist2": "Willy Paul",
+        "SongMood":[  "Dreamy",  "Sentimental",  "Romantic",  "Fun"],
+        "songKeyWord": "WP/B/Paah"
+    },
+    {
+        "songName": "Minuetto classical",
+        "songUrl": "cantabile/y2mate.com - Luigi Boccherini Minuetto classical.mp3",
+        "songGenre": "Classical",
+        "songId": "Classic_0173",
+        "songArtist1": "Luigi Boccherini",
+        "songArtist2": "",
+        "SongMood":[  "Relaxing",  "Epic",  "Hopeful",  "Peaceful"],
+        "songKeyWord": "BoccheriniMinuetto"
+    },
+    {
+        "songName": "For the Win",
+        "songUrl": "cantabile/y2mate.com - For the Win.mp3",
+        "songGenre": "Two Steps From Hell",
+        "songId": "TwoSteps_0172",
+        "songArtist1": "Thomas Bergersen",
+        "songArtist2": "",
+        "SongMood":[ "Epic", "Relaxing",  "Hopeful",  "Motivational"],
+        "songKeyWord": "ForTheWin"
+    },
+    {
+        "songName": "I love You Forever Miracles",
+        "songUrl": "cantabile/two-steps-from-hell-i-love-you-forever-miracles-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Two Steps From Hell",
+        "songId": "TwoSteps_0171",
+        "songArtist1": "Thomas Bergersen",
+        "songArtist2": "",
+        "SongMood":[ "Hopeful",  "Happy",  "Chill",  "Mellow",  "Epic"],
+        "songKeyWord": "i-love-you-forever"
+    },
+    {
+        "songName": "Cassandra",
+        "songUrl": "cantabile/thomas-bergersen-cassandra-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Two Steps From Hell",
+        "songId": "TwoSteps_0170",
+        "songArtist1": "Thomas Bergersen",
+        "songArtist2": "",
+       "SongMood":[  "Dreamy",  "Peaceful",  "Hopeful",  "Epic",  "Relaxing"],
+        "songKeyWord": "Cassandra"
+    },
+    {
+        "songName": "Ocean Princess",
+        "songUrl": "cantabile/thomas-bergersen-ocean-princess-feat-merethe-soltvedt-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Two Steps From Hell",
+        "songId": "TwoSteps_0169",
+        "songArtist1": "Thomas Bergersen",
+        "songArtist2": "Merethe Soltvedt",
+        "SongMood":[ "Epic", "Intense", "Relaxing", "Upbeat"],
+        "songKeyWord": "OceanPrincess"
+    },
+    {
+        "songName": "O Saki Saki",
+        "songUrl": "cantabile/batla-house-o-saki-saki-video-nora-fatehi-tanishk-b-neha-k-tulsi-k-b-praak-vishal-shekhar-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bollywood",
+        "songId": "B_0168",
+        "songArtist1": "",
+        "SongMood":[  "Fun",  "Epic",  "Party",  "Upbeat"],
+        "songKeyWord": "o-saki-saki"
+    },
+    {
+        "songName": "Simmba Aankh Marey",
+        "songUrl": "cantabile/simmba-aankh-marey-ranveer-singh-sara-ali-khan-tanishk-bagchi-mika-singh-neha-kakkar-kumar-s-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bollywood",
+        "songId": "B_0167",
+        "songArtist1": "Ranveer Singh",
+        "songArtist2": "Tanishk  Bagchi",
+       "SongMood":[  "Fun",  "Upbeat",  "Party",  "Happy",  "Romantic"],
+        "songKeyWord": "aankh-marey"
+    },
+    {
+        "songName": "Coca-cola",
+        "songUrl": "cantabile/luka-chuppi-coca-cola-song-kartik-a-kriti-s-tony-kakkar-tanishk-bagchi-neha-kakkar-young-desi-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bollywood",
+        "songId": "B_0166",
+        "songArtist1": "Luka Chuppi",
+        "songArtist2": "Tanishk  Bagchi",
+        "SongMood":[ "Upbeat", "Party",  "Fun",  "Euphoric"],
+        "songKeyWord": "cocaColaSong"
+    },
+    {
+        "songName": "Vaaste",
+        "songUrl": "cantabile/vaaste-song-dhvani-bhanushali-tanishk-bagchi-nikhil-d-souza-bhushan-kumar-radhika-r-vinay-s-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bollywood",
+        "songId": "B_0165",
+        "songArtist1": "Dhvani Bhanushali",
+        "songArtist2": "D-souza Bhushan Kumar , Tanishk  Bagchi",
+       "SongMood":[  "Hopeful",  "Nostalgic",  "Sentimental",  "Dreamy",  "Peaceful"],
+        "songKeyWord": "vaaste"
+    },
+    {
+        "songName": "Khalibali",
+        "songUrl": "cantabile/padmaavat-khalibali-ranveer-singh-deepika-padukone-shahid-kapoor-shivam-pathak-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bollywood",
+        "songId": "B_0164",
+        "songArtist1": "Ranveer Singh",
+        "songArtist2": "Deepika-Padukone",
+        "SongMood":[  "Intense",  "Euphoric",  "Upbeat",  "Mellow"],
+        "songKeyWord": "khalibali"
+    },
+    {
+        "songName": "Simmba Tere Bin",
+        "songUrl": "cantabile/simmba-tere-bin-ranveer-singh-sara-ali-khan-tanishk-bagchi-rahat-fateh-ali-khan-asees-kaur-128-ytshorts.savetube.me.mp3",
+        "songGenre": "Bollywood",
+        "songId": "B_0163",
         "songArtist1": "",
         "songArtist2": "",
-        "songMood": [
-          "",
-          "",
-          ""
-        ],
-        "songKeyWord": "lody  18 Official Music "
+        "SongMood":[ "Dreamy", "Nostalgic", "Peaceful", "Happy", "Romantic"],
+        "songKeyWord": "simmbaTereBin"
+    },
+    {
+        "songName": "Tarzan Boy",
+        "songUrl": "cantabile/y2mate.com - Baltimora  Tarzan Boy.mp3",
+        "songGenre": "Twilight",
+        "songId": "T_0162",
+        "songArtist1": "Baltimora",
+        "songArtist2": "",
+        "SongMood":[ "Party", "Hopeful", "Mellow", "Upbeat"],
+        "songKeyWord": "TarzanBoy"
+    },
+    {
+        "songName": "Shanivaar Raati Main Tera",
+        "songUrl": "cantabile/y2mate.com - Shanivaar Raati Song Main Tera Hero  Arijit Singh  Varun Dhawan Ileana DCruz Nargis Fakhri.mp3",
+        "songGenre": "RnB",
+        "songId": "RnB_0161",
+        "songArtist1": " Arijit Singh",
+        "songArtist2": "Varun Dhawan",
+        "SongMood":[  "Upbeat",  "Romantic",  "Euphoric",  "Happy",  "Fun"],
+        "songKeyWord": "RMainTeraHero"
     }
 ]
 
