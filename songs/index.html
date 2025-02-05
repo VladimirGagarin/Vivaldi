@@ -28,6 +28,20 @@
         </div>
     </header>
 
+    <div class="overlay-direction">
+        <h2>Confirm you want to play this playlist <span></span></h2>
+        <div class="confirmation-actions">
+            <button>Listen</button>
+            <button>Cancel</button>
+        </div>
+    </div>
+
+    <div id="playback-overlay">
+        <h2>OOPS! CLick Me To Play</h2>
+        <button id="playback-btn">&#9654;</button>
+    </div>
+    
+
     <div class="overlay-confirmation">
         <h2> 💖 Ready to feel the music of the heart? 🎶</h2>
         <h3></h3>
@@ -47,6 +61,40 @@
         <div class="message-section"><span></span></div>
     </div>
 
+    <div class="confirmation-overlay">
+        <h2></h2>
+        <p></p>
+        <input type="password" placeholder="Enter password here" autocomplete="off" name="songsForAllOfUs">
+        <div class="confirmation-buttons">
+            <button disabled>Yes</button>
+            <button>No</button>
+        </div>
+    </div>
+
+    <div class="playlist-hub">
+        <h2>Add to your playlists</h2>
+        <h3 class="song-anthem"></h3>
+
+        <!-- Input Section -->
+        <div class="play-inputs">
+            <input type="text" placeholder="Add playlist here...">
+            <button disabled title="Add new Playlist">Add</button>
+        </div>
+        
+        <!-- Previous Playlist Section -->
+         <h3>Your Recent Playlist</h3>
+        <ul class="previous-playlist"></ul>
+    
+        <!-- New Playlist Section -->
+         <h3>Your New Playlist</h3>
+        <ul class="new-playlist"></ul>
+    
+        <!-- Controls Section -->
+        <div class="playlist-controls">
+            <button>CLose</button>
+        </div>
+    </div>
+    
     <main>
         <!-- Feed Section for song recommendations -->
         <section id="Feed">
@@ -81,9 +129,20 @@
                 <button >Search Songs</button>
                 <button>Back</button>
             </div>
+
            <div class="playing-section">
                 <div class="left-section">
                     <div class="currentSong-preview">
+                        <div class="overlay-song-info">
+                            <h2></h2>
+                            <ul></ul>
+
+                            <div class="actions-songs">
+                                <button>Add Playlist</button>
+                                <button>Donload</button>
+                                <button>Share</button>
+                            </div>
+                        </div>
                         <div class="current-song-controls">
                             <div class="progress-truck">
                                 <div class="progress-bar"></div>
@@ -94,14 +153,14 @@
                                     <button class="play-button" aria-label="Play" title="Play">&#9654;</button>
                                     <button class="next-button" aria-label="Next Song" title="Next Song">&#9654;&#10074;</button>
                                     <button class="Like-button" aria-label="Like Song" title="Like song">&#10084;</button>
-                                    <button class="mute-button" aria-label="Mute" title="Mute Song">&#128263;</button>
+                                    <button class="mute-button" aria-label="Mute" title="Mute Song">&#128266;</button>
                                     <div class="vol-slider">
                                         <input type="range" title="Volume" aria-label="Volume Control" min="0" max="100" value="50">
                                     </div>
                                 </div>
                                 <div class="right-controls">
                                     <span class="duration"></span>
-                                    <button class="loop-button" aria-label="Loop" title="Loop Song"><i class="fa-solid fa-arrows-rotate"></i></button>
+                                    <button class="loop-button" aria-label="Loop" title="Loop Song">&#8633;</button>
                                     <button class="more-button" aria-label="More Options" title="Song information">&#8942;</button>
                                 </div>
                             </div>
@@ -145,4 +204,3 @@
     <script src="./song.js"></script>
 </body>
 </html>
-
